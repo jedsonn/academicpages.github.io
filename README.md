@@ -16,6 +16,28 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 See more info at https://academicpages.github.io/
 
+## Accounting Analytics Dashboard
+
+This repository now includes a Python-based accounting analytics application located in `accounting_app/`. The tool ingests CSV or Excel exports from your accounting system, validates and cleans the data, generates financial statements, and exposes an interactive Streamlit dashboard complete with automated insights and export capabilities.
+
+### Features
+
+- Multi-file CSV/Excel ingestion with automatic sheet handling and column standardisation.
+- Data cleaning (duplicate removal, missing value handling) and validation checks (e.g., debit vs credit balancing, outlier detection).
+- Financial statement generation: Income Statement, Balance Sheet, Cash Flow Statement, and Trial Balance.
+- Analytical tooling for trend, variance, ratio, budget vs actual, and aging analysis.
+- Interactive dashboard with KPI cards, Plotly visualisations, drill-down filters, preset views by role, dark/light mode toggle, and PDF/CSV export.
+- Privacy-friendly operation: uploaded files are processed in temporary folders that are deleted after ingestion.
+
+### Getting Started
+
+1. Create and activate a virtual environment (optional but recommended).
+2. Install dependencies with `pip install -r requirements.txt`.
+3. Launch the dashboard using `streamlit run accounting_app/dashboard.py`.
+4. Upload one or more accounting files (see the templates in `sample_data/` for the expected format) and optionally a budget file to explore the reports.
+
+Sample datasets are provided in `sample_data/dummy_transactions.csv` and `sample_data/dummy_budget.csv` for quick experimentation.
+
 ## To run locally (not on GitHub Pages, to serve on your own computer)
 
 1. Clone the repository and made updates as detailed above
