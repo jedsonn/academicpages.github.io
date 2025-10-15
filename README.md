@@ -24,6 +24,28 @@ See more info at https://academicpages.github.io/
 1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
 1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
 
+## Online first journal dashboard
+
+This repository includes a scraper that collects the most recent "online first"
+articles from a curated list of finance and accounting journals. Run the
+following command to refresh the dataset before building the site:
+
+```bash
+python scripts/online_first.py --config _data/journal_sources.json --output _data/online_first.json
+```
+
+When the script cannot reach the publisher websites (for example, in an offline
+environment), you can load a bundled demonstration dataset instead:
+
+```bash
+python scripts/online_first.py --offline --output _data/online_first.json
+```
+
+The aggregated results are rendered on the `/online-first/` page. You can adjust
+the journals, provide different URLs, or edit the offline fixtures by updating
+`_data/journal_sources.json`. The output file `_data/online_first.json` is read
+by Jekyll at build time.
+
 # Changelog -- bugfixes and enhancements
 
 There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
