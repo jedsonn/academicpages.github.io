@@ -39,3 +39,29 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.online-first {
+  .table-responsive {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead th {
+    text-align: left;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  }
+
+  td,
+  th {
+    padding: 0.4rem 0.6rem;
+    vertical-align: top;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+}

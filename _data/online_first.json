@@ -1,0 +1,133 @@
+{
+  "updated_at": "2025-10-15T21:50:02.898473+00:00",
+  "entries": [
+    {
+      "journal": "JAR",
+      "source": "Journal of Accounting Research",
+      "title": "Sample - Human Capital Investments in Audit Firms",
+      "authors": "Liam Ford; Beatrice Silva",
+      "date": "2024-05-22",
+      "url": "https://example.com/jar-sample-1"
+    },
+    {
+      "journal": "CAR",
+      "source": "Contemporary Accounting Research",
+      "title": "Sample - Local News Deserts and Analyst Forecasts",
+      "authors": "Byoung Kang; Jonathan Nam",
+      "date": "2024-05-21",
+      "url": "https://example.com/car-sample-1"
+    },
+    {
+      "journal": "JFE",
+      "source": "Journal of Financial Economics",
+      "title": "Sample - Climate Policy and Corporate Investment",
+      "authors": "Alex Chen; Priya Raman",
+      "date": "2024-05-21",
+      "url": "https://example.com/jfe-sample-1"
+    },
+    {
+      "journal": "JAE",
+      "source": "Journal of Accounting and Economics",
+      "title": "Sample - Algorithmic Trading and Financial Reporting Timeliness",
+      "authors": "Grace Lin; Victor Ramirez",
+      "date": "2024-05-20",
+      "url": "https://example.com/jae-sample-1"
+    },
+    {
+      "journal": "RFS",
+      "source": "The Review of Financial Studies",
+      "title": "Sample - Asset Pricing with Renewable Energy Shocks",
+      "authors": "Sofia Nguyen; Daniel Brooks",
+      "date": "2024-05-19",
+      "url": "https://example.com/rfs-sample-1"
+    },
+    {
+      "journal": "TAR",
+      "source": "The Accounting Review",
+      "title": "Sample - Analytics Training and Auditor Judgement",
+      "authors": "Jared Eutsler; Mary Curtis",
+      "date": "2024-05-19",
+      "url": "https://example.com/tar-sample-1"
+    },
+    {
+      "journal": "QJE",
+      "source": "The Quarterly Journal of Economics",
+      "title": "Sample - Tax Incentives and Firm Productivity",
+      "authors": "Michael Stone; Aisha Patel",
+      "date": "2024-05-18",
+      "url": "https://example.com/qje-sample-1"
+    },
+    {
+      "journal": "RAST",
+      "source": "Review of Accounting Studies",
+      "title": "Sample - Executive Networks and Disclosure Quality",
+      "authors": "Nina Popov; Samuel Greene",
+      "date": "2024-05-18",
+      "url": "https://example.com/rast-sample-1"
+    },
+    {
+      "journal": "JFE",
+      "source": "Journal of Financial Economics",
+      "title": "Sample - Private Equity Ownership and Labor Outcomes",
+      "authors": "Emily Hart; Lucas Meyer",
+      "date": "2024-05-17",
+      "url": "https://example.com/jfe-sample-2"
+    },
+    {
+      "journal": "CAR",
+      "source": "Contemporary Accounting Research",
+      "title": "Sample - Cybersecurity Breaches and Audit Fees",
+      "authors": "Lena Schultz; Omar Siddiqi",
+      "date": "2024-05-17",
+      "url": "https://example.com/car-sample-2"
+    },
+    {
+      "journal": "JAR",
+      "source": "Journal of Accounting Research",
+      "title": "Sample - ESG Assurance and Investor Learning",
+      "authors": "Olivia Hartmann; Chen Wu",
+      "date": "2024-05-16",
+      "url": "https://example.com/jar-sample-2"
+    },
+    {
+      "journal": "RFS",
+      "source": "The Review of Financial Studies",
+      "title": "Sample - Bank Capital Buffers under Climate Stress",
+      "authors": "Hannah Ortiz; Marco de Vries",
+      "date": "2024-05-16",
+      "url": "https://example.com/rfs-sample-2"
+    },
+    {
+      "journal": "JAE",
+      "source": "Journal of Accounting and Economics",
+      "title": "Sample - Carbon Disclosures and Debt Covenants",
+      "authors": "Natalie Ko; Ibrahim Hassan",
+      "date": "2024-05-15",
+      "url": "https://example.com/jae-sample-2"
+    },
+    {
+      "journal": "QJE",
+      "source": "The Quarterly Journal of Economics",
+      "title": "Sample - Housing Supply Chains and Local Employment",
+      "authors": "Renee Parker; Tomas Eriksen",
+      "date": "2024-05-14",
+      "url": "https://example.com/qje-sample-2"
+    },
+    {
+      "journal": "TAR",
+      "source": "The Accounting Review",
+      "title": "Sample - Tax Reporting under Supply Chain Disruptions",
+      "authors": "Wei Zhang; Cameron Boyd",
+      "date": "2024-05-13",
+      "url": "https://example.com/tar-sample-2"
+    },
+    {
+      "journal": "RAST",
+      "source": "Review of Accounting Studies",
+      "title": "Sample - Measuring Immaterial Misstatements",
+      "authors": "Harper Young; Matteo Ricci",
+      "date": "2024-05-12",
+      "url": "https://example.com/rast-sample-2"
+    }
+  ]
+}
