@@ -1,0 +1,401 @@
+ticker,company_name,ir_root_url,page_url,title,crawl_timestamp,crawl_depth,is_earnings_related,n_hidden_blocks,n_offscreen_blocks,has_zero_width,zero_width_count,n_comments,n_prompt_hits,suspicion_score,raw_text_length,example_hidden_block,example_comment,example_prompt_hit,scan_timestamp
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/default,Home page,2025-11-27T05:36:15.364973,0,True,4,0,False,0,12,0,25.5,4854,This is the Trace Id: fd46143cc2da74bbd3e71dd4bce890ed,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6688edfb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:15.423288
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/press-release-webcast,FY26 Q1 - Press Releases - Investor Relations - Microsoft,2025-11-27T05:36:18.641583,1,True,2,0,False,0,13,0,16.0,26526,This is the Trace Id: 31a04acef5332648fe2703c6c3ad583e,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV668ea87b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:18.819570
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/press-release-webcast,FY26 Q1 - Press Releases - Investor Relations - Microsoft,2025-11-27T05:36:18.986464,1,True,2,0,False,0,13,0,16.0,26526,This is the Trace Id: 31a04acef5332648fe2703c6c3ad583e,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV668ea87b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:19.158643
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/income-statements,FY26 Q1 - Income Statements - Investor Relations - Microsoft,2025-11-27T05:36:21.578147,1,True,3,0,False,0,12,0,20.5,6171,This is the Trace Id: 3c662c82a149d4a998d4b694d9486db6,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV668f8b8b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:21.630465
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/performance,FY26 Q1 - Performance - Investor Relations - Microsoft,2025-11-27T05:36:23.053083,1,True,2,0,False,0,12,0,15.5,6115,This is the Trace Id: eac164663db77fd502503e4c2c5f08a0,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669002ab.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:23.090683
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/metrics,FY26 Q1 - Metrics - Investor Relations - Microsoft,2025-11-27T05:36:24.869494,1,True,2,0,False,0,14,0,16.5,8205,This is the Trace Id: 8d52570011239d02132748047b74fead,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6690502b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:24.920580
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/productivity-and-business-processes-performance,FY26 Q1 - Productivity and Business Processes Performance - Investor Relations - Microsoft,2025-11-27T05:36:26.434197,1,True,2,0,False,0,12,0,15.5,6372,This is the Trace Id: 03190583dbee6566fb3a166230915cdf,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6690b42b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:26.473298
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/comprehensive-income,FY26 Q1 - Comprehensive Income - Investor Relations - Microsoft,2025-11-27T05:36:28.077432,1,True,2,0,False,0,12,0,15.5,5199,This is the Trace Id: e3c93983b2cc98d654d08226b4271ae1,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66911e9b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:28.117327
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/balance-sheets,FY26 Q1 - Balance Sheets - Investor Relations - Microsoft,2025-11-27T05:36:29.781232,1,True,2,0,False,0,12,0,15.5,7323,This is the Trace Id: 31d128f51cfe8cc81b58d006df456768,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66918c5b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:29.855492
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/cash-flows,FY26 Q1 - Cash Flows - Investor Relations - Microsoft,2025-11-27T05:36:31.703693,1,True,2,0,False,0,12,0,15.5,7932,This is the Trace Id: c76ac7fee5026f05eaa27bc73ef92b87,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6691f05b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:31.780683
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/segment-revenues,FY26 Q1 - Segment Results - Investor Relations - Microsoft,2025-11-27T05:36:33.196807,1,True,2,0,False,0,12,0,15.5,6124,This is the Trace Id: 4abfb9f2b7a7c59a690790f60a83f428,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669234cb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:33.301298
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/comprehensive-income,FY26 Q1 - Comprehensive Income - Investor Relations - Microsoft,2025-11-27T05:36:34.045429,2,True,2,0,False,0,12,0,15.5,5199,This is the Trace Id: e3c93983b2cc98d654d08226b4271ae1,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66911e9b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:34.086397
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/balance-sheets,FY26 Q1 - Balance Sheets - Investor Relations - Microsoft,2025-11-27T05:36:35.996803,2,True,2,0,False,0,12,0,15.5,7323,This is the Trace Id: 31d128f51cfe8cc81b58d006df456768,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66918c5b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:36.058705
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/cash-flows,FY26 Q1 - Cash Flows - Investor Relations - Microsoft,2025-11-27T05:36:37.639404,2,True,2,0,False,0,12,0,15.5,7932,This is the Trace Id: c76ac7fee5026f05eaa27bc73ef92b87,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6691f05b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:37.696897
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/segment-revenues,FY26 Q1 - Segment Results - Investor Relations - Microsoft,2025-11-27T05:36:39.579391,2,True,2,0,False,0,12,0,15.5,6124,This is the Trace Id: 4abfb9f2b7a7c59a690790f60a83f428,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669234cb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:39.626938
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/intelligent-cloud-performance,FY26 Q1 - Intelligent Cloud Performance - Investor Relations - Microsoft,2025-11-27T05:36:40.916710,2,True,2,0,False,0,12,0,15.5,5549,This is the Trace Id: cc2244d38f9fdd319d55f179e124b577,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6694624b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:40.958157
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/more-personal-computing-performance,FY26 Q1 - More Personal Computing Performance - Investor Relations - Microsoft,2025-11-27T05:36:42.863921,2,True,2,0,False,0,12,0,15.5,6028,This is the Trace Id: cfade3bbcbec5568901bff028af12c16,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6694ab1b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:42.965249
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/metrics,FY26 Q1 - Metrics - Investor Relations - Microsoft,2025-11-27T05:36:43.238832,2,True,2,0,False,0,14,0,16.5,8205,This is the Trace Id: 8d52570011239d02132748047b74fead,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6690502b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:43.290235
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/performance,FY26 Q1 - Performance - Investor Relations - Microsoft,2025-11-27T05:36:45.029003,2,True,2,0,False,0,12,0,15.5,6115,This is the Trace Id: eac164663db77fd502503e4c2c5f08a0,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669002ab.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:45.066362
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/income-statements,FY26 Q1 - Income Statements - Investor Relations - Microsoft,2025-11-27T05:36:46.427264,2,True,3,0,False,0,12,0,20.5,6171,This is the Trace Id: 3c662c82a149d4a998d4b694d9486db6,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV668f8b8b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:46.478385
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/productivity-and-business-processes-performance,FY26 Q1 - Productivity and Business Processes Performance - Investor Relations - Microsoft,2025-11-27T05:36:48.120129,2,True,2,0,False,0,12,0,15.5,6372,This is the Trace Id: 03190583dbee6566fb3a166230915cdf,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6690b42b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:48.156442
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q1,Microsoft Fiscal Year 2026 First Quarter Earnings Conference Call,2025-11-27T05:36:50.316459,2,True,3,0,False,0,12,1,30.5,56024,This is the Trace Id: 82e62943da2c147f068a5c5b2f39a4e1,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6696400b.0
+  End of ADDITIONAL DEBUG INFO","{""pattern"": ""\\bdo not (mention|include|highlight)\\b.*\\b(negative|risk|concern|problem)\\b"", ""match"": ""do not include any impact from the incremental $250 billion azure commitments from openai announced yesterday. commercial remaining performance obligation increased to $392 billion and was up 51% year-over-year. the balance has nearly doubled over the past two years. and even with this growth, our weighted average duration has been relatively stable at approximately 2 years. microsoft cloud revenue was $49.1 billion, ahead of expectations, and grew 26% and 25% in constant currency. microsoft cloud gross margin percentage was slightly better than expected at 68%, and down year-over-year due to the investments in ai that were partially offset by ongoing efficiency gains as noted earlier. now to segment results. revenue from productivity and business processes was $33 billion and grew 17% and 14% in constant currency. m365 commercial cloud revenue increased 17% and 15% in constant currency with 1 point of benefit from in-period revenue recognition. year-over-year growth was driven by both arpu and seats, with arpu growth again led by e5 and m365 copilot. paid m365 commercial seats grew 6% year-over-year with installed base expansion across all customer segments, though primarily in our small and medium business and frontline worker offerings. m365 commercial products revenue increased 17% and 14% in constant currency, ahead of expectations due to higher-than-expected office 2024 transactional purchasing. m365 consumer cloud revenue increased 26% and 25% in constant currency, again driven by arpu growth. m365 consumer subscriptions grew 7% to over 90 million. linkedin revenue increased 10% and 9% in constant currency driven by marketing solutions. the talent solutions business was impacted by continued weakness in the hiring market. dynamics 365 revenue increased 18% and 16% in constant currency with continued growth across all workloads. segment gross margin dollars increased 19% and 16% in constant currency. and gross margin percentage increased, driven by efficiency gains in m365 commercial cloud that were partially offset by investments in ai, including the impact of growing usage in m365 copilot chat. operating expenses increased 6% and 5% in constant currency and operating income increased 24% and 20% in constant currency. operating margins increased 3 points year-over-year to 62% driven by the higher gross margin noted earlier as well as improved operating leverage. next, the intelligent cloud segment. revenue was $30.9 billion and grew 28% and 27% in constant currency. in azure and other cloud services, where we continue to see accelerating demand, revenue grew 40% and 39% in constant currency. results were ahead of expectations, driven by better than expected growth in our core infrastructure business, primarily from our largest customers. azure ai services revenue was generally in line with expectations. and this quarter, demand again exceeded supply across workloads even as we brought more capacity online. in our on-premises server business, revenue increased 1% and was relatively unchanged in constant currency. results were ahead of expectations driven by transactional purchasing of windows server 2025. segment gross margin dollars increased 20% and 19% in constant currency. and gross margin percentage decreased year-over-year driven by investments in ai that were partially offset by efficiency gains in azure. operating expenses increased 4% and operating income grew 27%. operating margins were 43%, down only slightly year-over-year, as increased investments in ai were mostly offset by improved operating leverage. now to more personal computing. revenue was $13.8 billion and grew 4%. windows oem and devices revenue increased 6% year-over-year, significantly ahead of expectations, driven by strong demand ahead of windows 10 end of support as well as a benefit from inventory levels that remained elevated. search and news advertising revenue ex-tac increased 16% and 15% in constant currency driven by growth in volume as well as a continued benefit from third-party partnerships that was better-than-expected. and in gaming, revenue decreased 2% and 3% in constant currency. against a strong prior year comparable, xbox content and services revenue increased 1% and was relatively unchanged in constant currency, driven by better-than-expected performance from third-party content. segment gross margin dollars increased 11% and 10% in constant currency. and gross margin percentage increased year-over-year driven by sales mix shift to higher margin businesses. operating expenses increased 4% and 3% in constant currency and operating income increased 18% and 16% in constant currency. operating margins increased 3 points year-over-year to 30% driven by the higher gross margin noted earlier. now, moving to our q2 outlook, which unless specifically noted otherwise, is on a us dollar basis. based on current rates, we expect fx to increase total revenue growth by 2 points. within the segments, we expect fx to increase revenue growth by 2 points in productivity and business processes and intelligent cloud and 1 point in more personal computing. we expect fx to increase cogs and operating expense growth by 1 point. starting with the total company. we expect revenue of $79.5 to $80.6 billion or growth of 14% to 16%. we expect cogs of $26.35 to $26.55 billion, or growth of 21% to 22%. and operating expense of $17.3 to $17.4 billion or growth of 7% to 8%. operating margins should be relatively flat year-over-year and down sequentially aligned with historic seasonality. now, other income and expense. the combination of openai\u2019s conversion to a public benefit corp and the ongoing nature of our partnership will result in increased volatility. therefore, going forward, we will provide our outlook excluding any impact from our investments in openai. on that basis, in q2, other income and expense is estimated to be roughly $100 million as interest income will more than offset interest expense. and we expect our q2 effective tax rate to be approximately 19%. next, capital expenditures. with accelerating demand and a growing rpo balance, we\u2019re increasing our spend on gpus and cpus. therefore, total spend will increase sequentially, and we now expect the fy26 growth rate to be higher than fy25. as a reminder, there can be quarterly spend variability from cloud infrastructure buildouts and the timing of delivery of finance leases. next, our commercial business. in commercial bookings, we expect healthy growth in the core business on a low expiry base when adjusted for the openai contracts in the prior year. and we expect commercial bookings will be positively impacted by the significant openai commitments announced yesterday. as a reminder, larger long-term azure contracts, which are more unpredictable in their timing, drive increased quarterly volatility in our bookings growth rate. microsoft cloud gross margin percentage should be roughly 66%, down year-over-year driven by the continued investments in ai as well as the mix shift to azure. now to segment guidance. in productivity and business processes we expect revenue of $33.3 to $33.6 billion, or growth of 13% to 14%. in m365 commercial cloud, we expect revenue growth to be between 13% and 14% in constant currency, with business trends that remain relatively stable quarter over quarter. arpu growth will again be driven by e5 and m365 copilot. m365 commercial products revenue growth should be in the low to mid-single digits. as a reminder, m365 commercial products includes components that can be variable due to the in-period revenue recognition dynamics. m365 consumer cloud revenue growth should be in the mid-twenties driven by growth in arpu. for linkedin, we expect revenue growth of approximately 10%. and in dynamics 365, we expect revenue growth to be in the mid to high teens with continued growth across all workloads. for intelligent cloud, we expect revenue of $32.25 to $32.55 billion, or growth of 26% to 27%. in azure, we expect q2 revenue growth of approximately 37% in constant currency as demand remains significantly ahead of the capacity we have available. and while we\u2019re accelerating the amount of capacity we're bringing online, we will continue to balance azure revenue growth with the growing needs across our first-party apps and ai solutions, our own r&d efforts, and the end of life server replacements. therefore, we now expect to be capacity constrained through at least the end of our fiscal year. as a reminder, there can be quarterly variability in the year-on-year growth rates depending on the timing of capacity delivery and when it comes online, as well as from in-period revenue recognition depending on the mix of contracts. in our on-premises server business, we expect revenue to decline in the low to mid-single digits with ongoing customer shift to cloud offerings. in more personal computing, we expect revenue to be in the $13.95 to $14.45 billion. windows oem and devices revenue should decline in the mid-single digits. we expect continued momentum from windows 10 end of support, although growth rates will be impacted by elevated inventory levels at the end of q1 that we expect to come down through the quarter. therefore, windows oem revenue should decline in the low to mid-single digits. the range of potential outcomes remains wider than normal. devices revenue should decline year-over-year. search and news advertising ex-tac revenue growth should be in the low double digits, down sequentially as growth rates normalize following the benefit from third-party partnerships noted earlier. growth will continue to be driven by volume and revenue per search across edge and bing. and in xbox content and services, we expect revenue to decline in the low to mid-single digits against a prior year comparable that benefited from strong first-party performance, partially offset by growth in subscriptions. and hardware revenue should decline year-over-year. and in closing, demand signals across bookings, rpo, and product usage are accelerating faster than we expected. we\u2019re investing in infrastructure, ai talent, and product innovation to capture that momentum and expand our leadership position. and we remain focused on delivering real value to our customers that results in durable revenue growth for the long term. with that, let\u2019s go to q&a, jonathan. jonathan neilson: thanks, amy. we\u2019ll now move over to q&a. out of respect for others on the call, we request that participants please only ask one question. operator, can you please repeat your instructions? (operator direction.) keith weiss, morgan stanley: excellent. thank you, guys, for taking the question, and congratulations on another outstanding quarter. and if i\u2019m looking at microsoft, this is two quarters in a row, we\u2019re really seeing results that are well ahead of anybody\u2019s expectations when we were thinking about this company a year ago or five years ago. 111% commercial bookings growth was not on anybody\u2019s bingo card, if you will. yet, the stock is underperforming the broader market. and the question i have is getting at the zeitgeist that i think is weighing on the stock, and it is something about to change. and i think agi is a nomenclature or shorthand for that, and it\u2019s something that\u2019s still included in your guys\u2019 openai agreement. satya, when we think about agi, or we think about how application and computing architectures are changing, is there anything that you see on the horizon, whether it\u2019s agi or something else, that could potentially change what appears to be a really strong positioning for microsoft in the marketplace today, where that strength will perhaps weaken on a go-forward basis? is there anything that you\u2019re worrying about in that evolution, and particularly the evolution of these generative ai models? satya nadella: thank you, keith, for the question. here\u2019s how i would say that i think there are two parts we feel very, very good about, even this, i\u2019d say, the new agreement that we now have with openai, because i think even, it just creates more certainty to all the ip relationship we have as it relates to even this definition of agi. but beyond that, i think your question touches on something that\u2019s pretty important, which is, how are these ai systems going to truly be deployed in the real world and make a real difference and make a return for both the customers who are deploying them and then obviously, the providers of these systems? and i think the best way to characterize the situation is that even as the intelligence capability increases, let\u2019s even say, exponentially, model version over model version, the problem is, it\u2019s always going to still be jagged. i think the term people use is the jagged intelligence or spikey intelligence. you may even have a capability that\u2019s fantastic at a particular task, but it may not uniformly grow. what is required is, in fact, these systems, whether it is github agent hq or the m365 copilot system. don\u2019t think of this as a product. think of it as a system that, in some sense, smooths out those jagged edges and really helps the capability. i mean, just to give you a flavor for it, if i am in m365 copilot, i can generate an excel spreadsheet. the good news is, now an expert spreadsheet does understand office js, has the formulas in it. it feels like, wow, it is a great spreadsheet created by a good model. the more interesting thing is, i can go into agent mode in excel and iterate on that model, and yet it\u2019ll stay on rails. it won\u2019t go off rails. it\u2019ll be able to do the iteration. then i can even give it to the analyst agent, and then it\u2019ll even make sense of it like a data analyst would, of our excel model. the reason i say all of that is because that\u2019s the type of construction that will be needed. even when the model is magical, all powerful, i think we will be in this jagged intelligence phase for a long time. one of the fundamental things that, whether it\u2019s github, whether it\u2019s security, whether it\u2019s m365, the three main domains we are in, we feel very, very good about building these as organizing layers for agents to help customers. and by the way, that\u2019s the same thing that we want to put into foundry for our third-party customers. that\u2019s how people will build these multiagent systems. i feel actually, pretty good about both the progress in ai. i don\u2019t think agi, as defined, at least, by us in our contract, is ever going to be achieved anytime soon, but i do believe we can drive a lot of value for customers with advances in ai models by building these systems. it\u2019s the real question that needs to be well understood, and i feel very, very confident about our ability to make progress. keith weiss: excellent. that\u2019s super helpful. jonathan neilson: thanks, keith. operator, next question, please. (operator direction.) brent thill, jefferies: thanks. amy, on the bookings blow out, i guess many are somewhat concerned about concentration risk. and i think you noted a number of $100 million contracts. and not to go into a lot of detail, but can you just give a sense of what you\u2019re seeing in that 51% rpo and 110%-plus bookings growth that gives you confidence about what you\u2019re seeing in terms of the breadth and extent of some of these deals on a global basis. thanks. amy hood: thanks, brent. a couple things to maybe take a step back on rpo. with a nearly $400 billion balance, we\u2019ve been trying to help people understand how to think about, really the breadth of that. it covers numerous products. it covers customers of all sizes. and that\u2019s been a balance that we\u2019ve been growing, obviously, at a good clip. but what people need to realize is it sits across multiple products because of the things satya\u2019s talking about around creating systems and where we\u2019re investing. and if you\u2019re going to have that type of balance, and then, more importantly, have the weighted average duration be two years, it means that most of that is being consumed in relatively short order. people are not consuming, and i say this broadly, unless there\u2019s value. and i think this is why we keep coming back to are we creating real-world value in our ai platforms, in our ai solutions and apps and systems? and so, i think the way to think about rpo is it\u2019s been building across a number of customers. we\u2019re thrilled to have openai be a piece of that. we\u2019re learning a ton and building leading systems because of it that are being used at scale, that benefits every other customer. and so, it\u2019s why we\u2019ve tried to get a little bit more color to that rpo balance, because i do understand that there have been a lot of concerns or questions about, is it long dated? is it coming over a long period of time? and hopefully, this is helpful for people to realize that these are contracts being signed by customers who intend to use it in relatively short order. and at that type of scale, i think that\u2019s a pretty remarkable execution. brent thill: thank you. jonathan neilson: thanks, brent. operator, next question, please. (operator direction.) mark moerdler, bernstein: thank you very much for taking my question, and congratulations on the quarter. it\u2019s pretty amazing, what you guys are doing. satya and amy, i\u2019d like to ask you the number one question i receive, whether from investors or at ai conferences i attend. how much confidence do you have that the software, even the consumer internet business can monetize all the investments we\u2019re seeing globally, or, frankly, are we in a bubble? in fact, amy, what would be the factors you\u2019d be watching for to assure that you\u2019re not over building for current demand and that demand will sustain? thank you. amy hood: maybe i\u2019ll start, satya, and then you could add. let me talk a little bit about maybe connecting a couple of the dots, because with $400 billion of rpo that\u2019s short dated, as we talked about, our needs to continue to build out the infrastructure is very high. and that\u2019s for booked business today. that is not any new book to business we started trying to accomplish on october 1st. and so, the way to think about that, and you saw it this quarter in particular and as we talked about \u201826, the remainder, number one, we\u2019re pivoting toward, increasingly, we talked about this, short lived assets, both gpus and cpus. again, we talk about all these workloads are burning both in terms of app building. now, when that happens short-lived assets generally are done to match the duration of the contracts, or the duration of your expectation of those contracts. and so, i sometimes think when people think about risk, they\u2019re not realizing that most of the lifetimes of these and the lifetimes of the contracts are very similar. and so, when you think about having revenue and the bookings and coming on the balance sheet and the depreciation of short lived assets, they\u2019re actually quite matched, mark. and as you know, we\u2019ve spent the past few years not actually being short gpus and cpus per se, we were short the space or the power, is the language we use, to put them in. we spent a lot of time building out that infrastructure. now, we\u2019re continuing to do that, also using leases. those are very long-lived assets, as we\u2019ve talked about, 15 to 20 years. and over that period of time, do i have confidence that we\u2019ll need to use all of that? it is very high. and so, when i think about balancing those things, seeing the pivot to gpus, cpus, short lived, seeing the pivot in terms of how those are being utilized, we are, and i said this now, we\u2019ve been short now for many quarters. i thought we were going to catch up. we are not. demand is increasing. it is not increasing in just one place. it is increasing across many places. we\u2019re seeing usage increases in products. we are seeing new products launch that are getting increasing usage, and increasing uses very quickly. when people see real value, they actually commit real usage. and i sometimes think this is where this cycle needs to be thought through completely, is that you know when you see these demand signals, and we know we\u2019re behind, we do need to spend. but we\u2019re spending with a different amount of confidence in usage patterns and in bookings, and i feel very good about that. i have said we are now likely to be short capacity to serve the most important things we need to do, which is azure, our first-party applications. we need to invest in product r&d, and we\u2019re doing end-of-life replacements in the fleet. we\u2019re going to spend to make sure that happens. it\u2019s about modernization. it\u2019s about high quality. it\u2019s about service delivery, and it\u2019s about meeting demand. and so, i feel good about doing that, and i feel good that we\u2019ve been able to do it so efficiently and with a growing book of business behind it. satya nadella: yeah, the only thing i would add to what amy captured was, if you look out, there are two things that matter, i think, and that are critical in terms of how we think about our allocation of capital, also our r&d. one is, how efficient is our planet scale token factory? i mean, that\u2019s, at the end of the day, what you have to do. and you in order to do that, you have to start with building out a very fungible fleet. it\u2019s not like we\u2019re building one data center in one region in the world that\u2019s mega scale. we\u2019re building it out across the globe for inference, for pre-training, for post-training, for rl, for datacenter, what have you. therefore, the fungibility is super important. the second thing that we\u2019re also doing is continually modernizing the fleet. it\u2019s not like we buy one version of, say, nvidia and load up for all the gigawatts we have. each year, your buy; you write the moore\u2019s law. you continuously modernize and depreciate it. and that means you also use software to grow efficiency. i talked about, i think, 30% improvement on both serving up gpt-41 and 5o. that\u2019s software. and by the way, it\u2019s helpful on a100s. it\u2019s helpful on gb200s, and it\u2019ll be helpful on gb300s. that\u2019s the beauty of having the efficiency of the fleet. keep improving utilization, keep improving the efficiency. that\u2019s what you do in the token factory. the other aspect, which amy spoke to, is we have some of the best agent systems that matter in the high value domains. it\u2019s in information work. that\u2019s the copilot system. coding, i mean, i should also say, one of the things i like about copilot is, i mean, copilot arpus compared to m365 arpus, it\u2019s expansive. the same thing that happened between server and cloud, we used to always say, \u201cwell, is it zero sum?\u201d it turned out that the cloud was so much more expansive to the server market. the same thing is happening in ai, because first, you could say, hey, our arpus are too low when it comes to m365, or you could say, we have the opportunity with ai to be much more expansive. same thing with tools. i mean, tooling, this tools business was not a leading business, whereas coding business is going to be one of the most expansive ai systems. and so, we feel very good about being in that category. same thing with security, same thing with health. and in consumer, one of the things is it\u2019s not just about ads, it\u2019s ads plus subscriptions. that also opens up opportunity for us. when i look at the entirety of these high value agent systems, and when we look at the efficiency of and fungibility of our fleet, that\u2019s what gives us the confidence to invest both the capital and the r&d talent to go after this opportunity. mark moerdler: that was pretty amazing. i really appreciate all the details. jonathan neilson: thanks, mark. operator, next question, please. (operator direction.) karl keirstead, ubs: okay, thank you. this one is for amy. amy, i certainly don\u2019t want to take you down too complex an accounting path with this question. but the investment in openai that sits another income at $4.1 billion is so large that i think the audience listening in could benefit from a little bit more color about what that is. it feels like it\u2019s so much larger than you were running through other income in prior quarters that it mustn\u2019t just be your share of the openai losses. could you just describe that and what we can expect in subsequent quarters, and whether this signals any kind of accounting change? thanks so much. amy hood: the q1 number was not impacted at all by the new agreement that was put in place. let me first say that. secondly, that increased loss was all due to our percentage of losses and openai equity method, just to be very clear. there is not anything there that is not the increased losses from openai. karl keirstead: okay, understood. thank you. amy hood: thanks, karl. jonathan neilson: thanks, karl. operator, next question, please. (operator direction.) mark murphy, jp morgan: thank you so much. we seem to be entering into a new era where the contractual commitments from a small number of ai natives are just incredibly large, and not only at absolute terms, but sometimes relative to the size of the companies themselves, for instance, contracts worth hundreds of billions of dollars that are 20 times their current revenue scale. philosophically, how do you evaluate the ability of those companies to follow through on these commitments? and how do you think about placing guardrails on customer concentration for any single entity? satya nadella: yeah, maybe i\u2019ll start and then, amy, you can add. i mean, it goes back a little bit, mark, to what i said about building first the asset itself such that it\u2019s most fungible, and then to recognize the strength of even our portfolio. we have a third-party business. we have a first-party business. we have third party also spread between enterprise, digital natives. i\u2019ve always felt that we need a balance there, because it may start with digital natives. they\u2019re always going to be the early adopters. you always have the hit app of the generation, and then, essentially, it spreads throughout. the enterprise adoption cycle is just starting. and so, therefore, having over the arc of time, i think that third-party balance of customers will only increase. but it\u2019s great to have the hit first-party apps in the beginning, because you can build scale that then, it\u2019s a fungible. and that\u2019s where the key is. you don\u2019t want to build for a digital native as if you\u2019re just doing hosting for them. you want to build. that\u2019s where i think some of the decision making of ours is probably getting better understood. what do we say yes to? what do we say no to? i think there was a lot of confusion. hopefully, by now, anyone who\u2019s switched on would figure this out. and so, that\u2019s, i think, one thing we\u2019re doing on the third party, but the one first-party is probably where a lot of our leverage comes. and it\u2019s not even about one hit app on our first party, even. our portfolio of stuff, which i just walked through in the earlier answer, gives us, again, the confidence that between that mix, we will be able to use our fleet to the maximum. and remember, these assets, especially the data centers and so on, are long assets. there will be many refresh cycles for any one of these when it comes to the gear. i feel that once you think about all those dimensions, the concentration risk gets mitigated by being thoughtful about how you really ensure the build is for the broad customer base. amy hood: and maybe just to help with another angle, because i think satya has helped a lot, is that when you think about concentration risk or delivering to any customer, you have to remember that, because we\u2019re talking about this very large, flexible fleet that can be used for anyone and for any purpose, 1p, 3p, and including our commercial cloud, by the way, which i should be quite clear on, it is pretty flexible in every regard, you have to remember that the cpu and gpu and the storage gear doesn\u2019t come into play until the contracts start happening. and so, you\u2019re right. some of these large contracts have delivery dates over time, so you get a lot of lead time in being able to say, oh, what\u2019s the status? and so, i think we\u2019re pretty thoughtful around what\u2019s always gone in our rpo balance, and been considerate of that. there\u2019s always been that taken into account when we publish that bookings number and publish the rpo balance. mark murphy: thank you very much. jonathan neilson: thanks, mark. operator, next question, please. (operator direction.) brad zelnick, deutsche bank: great. thanks so much for taking the question, and i\u2019ll echo my congrats on an amazing start to the year. amy, is there any way to quantify or frame the revenue impact of azure being short on capacity? and while i appreciate the constraints you face are brought across the industry, is there risk"", ""context"": ""contracts for both Azure and M365. These results do not include any impact from the incremental $250 billion Azure commitments from OpenAI announced yesterday. Commercial remaining performance obli..."", ""source"": ""raw""}",2025-11-27T05:36:50.399765
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/press-release-webcast,FY25 Q4 - Press Releases - Investor Relations - Microsoft,2025-11-27T05:36:52.684541,3,True,2,0,False,0,13,0,16.0,22950,This is the Trace Id: 2b628d05d6da1fc994db4268fc95c90a,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6696b1fb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:52.886511
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,"https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:OtherNonoperatingIncomeAndExpenseTextBlock&title=Other%20expense,%20net",IRFinancialStatementsPopups,2025-11-27T05:36:54.511399,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 5489d210e3d74eedd3edf33fd03ab877,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66972f0b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:55.520707
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:IncomeTaxDisclosureTextBlock&title=Provision%20for%20income%20taxes,IRFinancialStatementsPopups,2025-11-27T05:36:56.679590,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 786eb145e513069d002acd97ec53bbdc,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6697bf7b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:36:57.669805
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:EarningsPerShareTextBlock&title=Earnings%20per%20share:,IRFinancialStatementsPopups,2025-11-27T05:36:58.976558,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 920823b78b686b35b5361772b0d3ca47,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6698509b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:00.026049
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:EarningsPerShareTextBlock&title=Weighted%20average%20shares%20outstanding:,IRFinancialStatementsPopups,2025-11-27T05:37:01.128030,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 2cb7d36b929fd6bfcf476ebce8887225,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6698e2db.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:02.196448
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/intelligent-cloud-performance,FY26 Q1 - Intelligent Cloud Performance - Investor Relations - Microsoft,2025-11-27T05:37:02.494876,2,True,2,0,False,0,12,0,15.5,5549,This is the Trace Id: cc2244d38f9fdd319d55f179e124b577,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6694624b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:02.533112
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/more-personal-computing-performance,FY26 Q1 - More Personal Computing Performance - Investor Relations - Microsoft,2025-11-27T05:37:04.336859,2,True,2,0,False,0,12,0,15.5,6028,This is the Trace Id: cfade3bbcbec5568901bff028af12c16,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV6694ab1b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:04.374593
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:ComprehensiveIncomeNoteTextBlock&title=Other%20comprehensive%20income,IRFinancialStatementsPopups,2025-11-27T05:37:06.391734,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 95e992ec5b405e893dfee63e958d26f9,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669a339b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:07.339770
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=msft:ScheduleOfCashCashEquivalentsAndInvestmentsTableTextBlock&title=Cash%20and%20cash%20equivalents,IRFinancialStatementsPopups,2025-11-27T05:37:08.606090,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 79be893efba23f2e2f63dde373439da8,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669aa20b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:09.526645
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=msft:ScheduleOfCashCashEquivalentsAndInvestmentsTableTextBlock&title=Short-term%20investments,IRFinancialStatementsPopups,2025-11-27T05:37:10.640666,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 47ddaac53901859f138d7fe30e4385d4,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669b278b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:11.574584
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,"https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:PropertyPlantAndEquipmentDisclosureTextBlock&title=Property%20and%20equipment,%20net%20of%20accumulated%20depreciation%20of%20$98,880%20and%20$93,653",IRFinancialStatementsPopups,2025-11-27T05:37:12.732176,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 872d49e8c531732866a5612d838bca72,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669badeb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:13.631129
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=msft:LesseeOperatingAndFinanceLeasesTextBlock&title=Operating%20lease%20right-of-use%20assets,IRFinancialStatementsPopups,2025-11-27T05:37:14.869301,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: ef3ac678e841f1639dbc3266dc93a784,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669c237b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:15.810823
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=msft:ScheduleOfCashCashEquivalentsAndInvestmentsTableTextBlock&title=Equity%20and%20other%20investments,IRFinancialStatementsPopups,2025-11-27T05:37:17.065907,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 08e9b42c05c0f3a158f7e480283f79e1,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669ca21b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:18.131694
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:GoodwillDisclosureTextBlock&title=Goodwill,IRFinancialStatementsPopups,2025-11-27T05:37:19.092654,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: c561f7aa5f53977a13c930c59a7ff5ee,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669d1d8b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:20.166174
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,"https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:IntangibleAssetsDisclosureTextBlock&title=Intangible%20assets,%20net",IRFinancialStatementsPopups,2025-11-27T05:37:21.205367,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 50ce07cdcb71f070b4abb4de97abd378,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669d85eb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:22.273288
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:DebtDisclosureTextBlock&title=Current%20portion%20of%20long-term%20debt,IRFinancialStatementsPopups,2025-11-27T05:37:23.265479,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 20bb25c3f89598b4e6fa083b58cf0ae8,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669df91b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:24.304327
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:IncomeTaxDisclosureTextBlock&title=Short-term%20income%20taxes,IRFinancialStatementsPopups,2025-11-27T05:37:25.323457,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: a7e406e6718638978bd3f680cac26068,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669e644b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:26.383468
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:RevenueFromContractWithCustomerTextBlock&title=Short-term%20unearned%20revenue,IRFinancialStatementsPopups,2025-11-27T05:37:27.386033,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: ee7996537e9a9a35ce52f9a251c94fd0,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669eccbb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:28.436330
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:DebtDisclosureTextBlock&title=Long-term%20debt,IRFinancialStatementsPopups,2025-11-27T05:37:30.190027,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: ff3c08ff72447981a2d81369a2745e86,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669f2f7b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:31.302167
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:IncomeTaxDisclosureTextBlock&title=Long-term%20income%20taxes,IRFinancialStatementsPopups,2025-11-27T05:37:32.327010,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 2bb65c6242c210d4cdbd0d8b4d0654d9,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669fcddb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:33.379098
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:RevenueFromContractWithCustomerTextBlock&title=Long-term%20unearned%20revenue,IRFinancialStatementsPopups,2025-11-27T05:37:34.503969,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 417aff625d7adc45a39fd296f3534ffb,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66a03fab.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:35.572768
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:IncomeTaxDisclosureTextBlock&title=Deferred%20income%20taxes,IRFinancialStatementsPopups,2025-11-27T05:37:36.894205,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 808e6c894935862eb30ec3eeb3108a8e,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66a0c76b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:37.956884
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=msft:LesseeOperatingAndFinanceLeasesTextBlock&title=Operating%20lease%20liabilities,IRFinancialStatementsPopups,2025-11-27T05:37:39.619772,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 50bcba220c8f246f766e03e6428d2e31,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66a166db.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:40.695590
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:LegalMattersAndContingenciesTextBlock&title=Commitments%20and%20contingencies,IRFinancialStatementsPopups,2025-11-27T05:37:41.565988,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 67ebb9d69495c2a5d78046231bb9d383,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66a2183b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:42.625627
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:ComprehensiveIncomeNoteTextBlock&title=Accumulated%20other%20comprehensive%20loss,IRFinancialStatementsPopups,2025-11-27T05:37:44.179684,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 9cfcb52244317ace0e2e068ccd41820d,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66a29b1b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:45.223179
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:SegmentReportingDisclosureTextBlock&title=Segment%20Results,IRFinancialStatementsPopups,2025-11-27T05:37:46.278583,2,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 56393fdbd8bed7e2a421715749bef1f5,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66a3316b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:47.305492
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:ComprehensiveIncomeNoteTextBlock&title=Other%20comprehensive%20income,IRFinancialStatementsPopups,2025-11-27T05:37:47.874708,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 95e992ec5b405e893dfee63e958d26f9,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669a339b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:48.930965
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=msft:ScheduleOfCashCashEquivalentsAndInvestmentsTableTextBlock&title=Cash%20and%20cash%20equivalents,IRFinancialStatementsPopups,2025-11-27T05:37:49.607109,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 79be893efba23f2e2f63dde373439da8,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669aa20b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:50.669465
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=msft:ScheduleOfCashCashEquivalentsAndInvestmentsTableTextBlock&title=Short-term%20investments,IRFinancialStatementsPopups,2025-11-27T05:37:51.209855,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 47ddaac53901859f138d7fe30e4385d4,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669b278b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:52.303197
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,"https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:PropertyPlantAndEquipmentDisclosureTextBlock&title=Property%20and%20equipment,%20net%20of%20accumulated%20depreciation%20of%20$98,880%20and%20$93,653",IRFinancialStatementsPopups,2025-11-27T05:37:52.845262,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 872d49e8c531732866a5612d838bca72,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669badeb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:53.906507
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=msft:LesseeOperatingAndFinanceLeasesTextBlock&title=Operating%20lease%20right-of-use%20assets,IRFinancialStatementsPopups,2025-11-27T05:37:54.451173,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: ef3ac678e841f1639dbc3266dc93a784,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669c237b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:55.524220
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=msft:ScheduleOfCashCashEquivalentsAndInvestmentsTableTextBlock&title=Equity%20and%20other%20investments,IRFinancialStatementsPopups,2025-11-27T05:37:56.287419,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 08e9b42c05c0f3a158f7e480283f79e1,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669ca21b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:57.330133
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:GoodwillDisclosureTextBlock&title=Goodwill,IRFinancialStatementsPopups,2025-11-27T05:37:57.942142,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: c561f7aa5f53977a13c930c59a7ff5ee,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669d1d8b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:37:58.946412
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,"https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:IntangibleAssetsDisclosureTextBlock&title=Intangible%20assets,%20net",IRFinancialStatementsPopups,2025-11-27T05:37:59.517159,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 50ce07cdcb71f070b4abb4de97abd378,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669d85eb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:00.536180
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:DebtDisclosureTextBlock&title=Current%20portion%20of%20long-term%20debt,IRFinancialStatementsPopups,2025-11-27T05:38:01.109692,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 20bb25c3f89598b4e6fa083b58cf0ae8,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669df91b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:02.166165
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:IncomeTaxDisclosureTextBlock&title=Short-term%20income%20taxes,IRFinancialStatementsPopups,2025-11-27T05:38:02.703676,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: a7e406e6718638978bd3f680cac26068,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669e644b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:03.806195
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:RevenueFromContractWithCustomerTextBlock&title=Short-term%20unearned%20revenue,IRFinancialStatementsPopups,2025-11-27T05:38:04.419468,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: ee7996537e9a9a35ce52f9a251c94fd0,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669eccbb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:05.480820
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:DebtDisclosureTextBlock&title=Long-term%20debt,IRFinancialStatementsPopups,2025-11-27T05:38:06.317813,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: ff3c08ff72447981a2d81369a2745e86,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669f2f7b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:07.353518
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:IncomeTaxDisclosureTextBlock&title=Long-term%20income%20taxes,IRFinancialStatementsPopups,2025-11-27T05:38:08.059705,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 2bb65c6242c210d4cdbd0d8b4d0654d9,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV669fcddb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:09.139025
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:RevenueFromContractWithCustomerTextBlock&title=Long-term%20unearned%20revenue,IRFinancialStatementsPopups,2025-11-27T05:38:09.910822,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 417aff625d7adc45a39fd296f3534ffb,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66a03fab.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:10.979413
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:IncomeTaxDisclosureTextBlock&title=Deferred%20income%20taxes,IRFinancialStatementsPopups,2025-11-27T05:38:11.509677,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 808e6c894935862eb30ec3eeb3108a8e,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66a0c76b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:12.581308
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=msft:LesseeOperatingAndFinanceLeasesTextBlock&title=Operating%20lease%20liabilities,IRFinancialStatementsPopups,2025-11-27T05:38:13.424821,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 50bcba220c8f246f766e03e6428d2e31,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66a166db.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:14.449953
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:LegalMattersAndContingenciesTextBlock&title=Commitments%20and%20contingencies,IRFinancialStatementsPopups,2025-11-27T05:38:15.025554,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 67ebb9d69495c2a5d78046231bb9d383,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66a2183b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:16.119168
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:ComprehensiveIncomeNoteTextBlock&title=Accumulated%20other%20comprehensive%20loss,IRFinancialStatementsPopups,2025-11-27T05:38:16.865198,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 9cfcb52244317ace0e2e068ccd41820d,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66a29b1b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:17.784011
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/IRFinancialStatementsPopups?tag=us-gaap:SegmentReportingDisclosureTextBlock&title=Segment%20Results,IRFinancialStatementsPopups,2025-11-27T05:38:18.566925,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 56393fdbd8bed7e2a421715749bef1f5,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66a3316b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:19.645789
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,"https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:OtherNonoperatingIncomeAndExpenseTextBlock&title=Other%20expense,%20net",IRFinancialStatementsPopups,2025-11-27T05:38:21.354447,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 19ef15c418e5e7c1a204414727871ba4,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66ab916b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:22.428241
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:IncomeTaxDisclosureTextBlock&title=Provision%20for%20income%20taxes,IRFinancialStatementsPopups,2025-11-27T05:38:23.288367,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 5573ccaf07ce655b9a6084c44f9c8802,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66ac390b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:24.365679
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:EarningsPerShareTextBlock&title=Earnings%20per%20share:,IRFinancialStatementsPopups,2025-11-27T05:38:25.386653,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 99482a953d34959c415de63140976803,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66acadfb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:26.429522
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/IRFinancialStatementsPopups?tag=us-gaap:EarningsPerShareTextBlock&title=Weighted%20average%20shares%20outstanding:,IRFinancialStatementsPopups,2025-11-27T05:38:27.318017,3,True,17,0,False,0,12,0,90.5,29827,This is the Trace Id: 2b01a4c1e997d67839cd09df233640b2,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66ad147b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:28.380778
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/income-statements,FY25 Q4 - Income Statements - Investor Relations - Microsoft,2025-11-27T05:38:29.570447,3,True,3,0,False,0,12,0,20.5,6392,This is the Trace Id: 01c5966e87ba82555876811f568fbf41,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66ad79fb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:29.631186
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/performance,FY25 Q4 - Performance - Investor Relations - Microsoft,2025-11-27T05:38:31.193335,3,True,2,0,False,0,12,0,15.5,5463,This is the Trace Id: 515d0e2c150681e4cdc71eecc843dfd1,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66add66b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:31.233776
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/metrics,FY25 Q4 - Metrics - Investor Relations - Microsoft,2025-11-27T05:38:32.846930,3,True,2,0,False,0,14,0,16.5,8642,This is the Trace Id: a566e41e011ab8b12c9ed949fc48e803,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66ae340b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:33.022957
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/productivity-and-business-processes-performance,FY25 Q4 - Productivity and Business Processes Performance - Investor Relations - Microsoft,2025-11-27T05:38:34.242987,3,True,2,0,False,0,12,0,15.5,6308,This is the Trace Id: 0b10e1cdce6ed09d0637320cdae7eda6,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66aea79b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:34.285656
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/comprehensive-income,FY25 Q4 - Comprehensive Income - Investor Relations - Microsoft,2025-11-27T05:38:35.364002,3,True,2,0,False,0,12,0,15.5,5305,This is the Trace Id: 5e45401481a4edbe7a07a89fc8c2e47e,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66aef26b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:35.408955
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/balance-sheets,FY25 Q4 - Balance Sheets - Investor Relations - Microsoft,2025-11-27T05:38:36.665338,3,True,2,0,False,0,12,0,15.5,7418,This is the Trace Id: b4db8cf05eedfd2c460ce2d639dfd11d,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66af335b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:36.777220
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/cash-flows,FY25 Q4 - Cash Flows - Investor Relations - Microsoft,2025-11-27T05:38:38.361316,3,True,2,0,False,0,12,0,15.5,8378,This is the Trace Id: 81688ee7ac01c785e50676eac97833a5,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66af847b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:38.430237
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/segment-revenues,FY25 Q4 - Segment Revenue and Operating Income - Investor Relations - Microsoft,2025-11-27T05:38:39.888977,3,True,2,0,False,0,12,0,15.5,5680,This is the Trace Id: 2b541abfe8b91322b593400f2d455258,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66afefab.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:39.931508
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/comprehensive-income,FY25 Q4 - Comprehensive Income - Investor Relations - Microsoft,2025-11-27T05:38:40.683976,3,True,2,0,False,0,12,0,15.5,5305,This is the Trace Id: 5e45401481a4edbe7a07a89fc8c2e47e,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66aef26b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:40.728502
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/balance-sheets,FY25 Q4 - Balance Sheets - Investor Relations - Microsoft,2025-11-27T05:38:42.777795,3,True,2,0,False,0,12,0,15.5,7418,This is the Trace Id: b4db8cf05eedfd2c460ce2d639dfd11d,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66af335b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:42.840746
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/cash-flows,FY25 Q4 - Cash Flows - Investor Relations - Microsoft,2025-11-27T05:38:44.313691,3,True,2,0,False,0,12,0,15.5,8378,This is the Trace Id: 81688ee7ac01c785e50676eac97833a5,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66af847b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:44.426323
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/segment-revenues,FY25 Q4 - Segment Revenue and Operating Income - Investor Relations - Microsoft,2025-11-27T05:38:45.465288,3,True,2,0,False,0,12,0,15.5,5680,This is the Trace Id: 2b541abfe8b91322b593400f2d455258,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66afefab.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:45.511852
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/intelligent-cloud-performance,FY25 Q4 - Intelligent Cloud Performance - Investor Relations - Microsoft,2025-11-27T05:38:47.680305,3,True,2,0,False,0,12,0,15.5,5531,This is the Trace Id: f9b80f55eb44da52f816014cae2cca31,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b1ae2b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:47.718547
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/more-personal-computing-performance,FY25 Q4 - More Personal Computing Performance - Investor Relations - Microsoft,2025-11-27T05:38:49.067171,3,True,2,0,False,0,12,0,15.5,5755,This is the Trace Id: 195bc6e90deba443c24a71515d947802,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b1e30b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:49.103937
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/default,Home page,2025-11-27T05:38:56.843411,1,True,4,0,False,0,12,0,25.5,4854,This is the Trace Id: 346532edb847afe1e6be2dcdfefdbdf8,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b3d24b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:56.922592
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/corporate-governance/overview,Microsoft Investor Relations - Corporate Governance Overview,2025-11-27T05:38:58.448648,1,True,6,0,False,0,12,0,35.5,5148,This is the Trace Id: 4213adcb8a69e9f46885d31bdd12c903,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b44a9b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:38:58.489330
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/corporate-governance/framework,Microsoft Investor Relations - Corporate Governance Framework,2025-11-27T05:39:00.136890,1,True,3,0,False,0,12,0,20.5,5288,This is the Trace Id: 1608096163ce04f5e835820cd5ed0d82,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b4c2ab.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:00.175001
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/corporate-governance/votingresults,Microsoft Investor Relations - 2024 Proxy Voting Results,2025-11-27T05:39:03.016289,2,True,3,0,False,0,12,0,20.5,7730,This is the Trace Id: 75008eb7bdf45849fe37c9d8d292048b,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b559fb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:03.077252
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/corporate-governance/board-of-directors,Microsoft Investor Relations - Microsoft Corporation Overview Board Of Directors,2025-11-27T05:39:04.060126,1,True,3,0,False,0,12,0,20.5,4277,This is the Trace Id: d5f02282ae25ec17a8e7890aa9b655e5,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b5ae9b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:04.095547
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/corporate-governance/policies,Microsoft Investor Relations - Corporate Governance Policies and Guidelines,2025-11-27T05:39:05.244877,1,True,3,0,False,0,12,0,20.5,4621,This is the Trace Id: 832498acf16698d8f1207619e18da0ab,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b6046b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:05.283386
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/annual-reports,Microsoft Investor Relations - Annual Reports,2025-11-27T05:39:07.532288,1,True,3,0,False,0,12,0,20.5,4970,This is the Trace Id: 2dae31a14ab7e5e7b4c36c7f89afe638,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b66c5b.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:07.601909
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/sec-filings,Microsoft Investor Relations - SEC Filings,2025-11-27T05:39:08.982985,1,True,3,0,False,0,12,0,20.5,3833,This is the Trace Id: 041d241b9204c7b120aec803340425fb,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b6cbfb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:09.017761
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/earnings/default,Default,2025-11-27T05:39:10.629367,2,True,3,0,True,1,12,0,24.0,3204,This is the Trace Id: ab0bf8b49b589a38865a311d1c679e1e,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b71fbb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:10.658486
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/investor-information,Microsoft Investor Relations - Information for Investors,2025-11-27T05:39:11.964924,1,True,3,0,False,0,12,0,20.5,5700,This is the Trace Id: cdff57e1f331a4aa336e85d542220cb7,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b760bb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:12.009278
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/annual-meeting,Microsoft Annual Meeting of Shareholders,2025-11-27T05:39:12.946549,1,True,3,0,False,0,12,0,20.5,3800,This is the Trace Id: 8a6bd4068dc7bf37f02b383d16bce367,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b79cab.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:12.980395
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/dividends-and-stock-history,Microsoft Investor Relations - Dividends and Stock History,2025-11-27T05:39:14.660986,1,True,3,0,False,0,12,0,20.5,5721,This is the Trace Id: 9107daf270c9e6397d06f2cf5c6a34bb,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b7f8db.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:14.703428
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/investment-history,"Microsoft, MSFT, Investor Relations, Stock, Stock Split, Stock Price Look Up, Investment Calculator",2025-11-27T05:39:16.069621,1,True,3,0,False,0,12,0,20.5,9031,This is the Trace Id: 8fb7067d2f9e6d02d69a6a5372a0760d,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b854ab.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:16.171224
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/Investor/acquisition-history,Microsoft Investor Relations - Acquisition History,2025-11-27T05:39:18.189960,1,True,3,0,False,0,12,0,20.5,12004,This is the Trace Id: 424a7ed47d7ae92890415e2e0141d1a0,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66b8d2eb.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:18.266000
+MSFT,Microsoft Corporation,https://www.microsoft.com/en-us/Investor,https://www.microsoft.com/en-us/investor/faq,Microsoft Investor Relations - FAQs,2025-11-27T05:39:27.216082,1,True,3,0,False,0,12,0,20.5,13215,This is the Trace Id: 05290fd783e18d43bbe517daa58ad49b,"Start of ADDITIONAL DEBUG INFO ** cv.html **
+
+    CVToken: CASMicrosoftCV66bac5db.0
+  End of ADDITIONAL DEBUG INFO",,2025-11-27T05:39:27.330805

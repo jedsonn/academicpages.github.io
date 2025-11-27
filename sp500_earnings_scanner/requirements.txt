@@ -1,0 +1,16 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+pandas>=2.0.0
+pyarrow>=14.0.0  # For parquet support
+
+# PDF extraction
+pdfminer.six>=20221105
+
+# Optional: Headless browser for visible vs raw comparison
+# playwright>=1.40.0
+
+# Development/testing
+pytest>=7.4.0
+pytest-cov>=4.1.0

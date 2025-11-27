@@ -1,0 +1,11 @@
+{
+  "firms_processed": 2,
+  "edgar_documents": 0,
+  "ir_pages": 100,
+  "suspicious_edgar": 0,
+  "suspicious_ir": 100,
+  "errors": 0,
+  "duration_seconds": 201.361812,
+  "start_time": "2025-11-27T05:36:06.012640",
+  "end_time": "2025-11-27T05:39:27.374452"
+}

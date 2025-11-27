@@ -1,0 +1,31 @@
+ticker,company_name,cik,ir_root_url
+AAPL,Apple Inc.,0000320193,https://investor.apple.com
+MSFT,Microsoft Corporation,0000789019,https://www.microsoft.com/en-us/Investor
+AMZN,Amazon.com Inc.,0001018724,https://ir.aboutamazon.com
+GOOGL,Alphabet Inc.,0001652044,https://abc.xyz/investor
+META,Meta Platforms Inc.,0001326801,https://investor.fb.com
+NVDA,NVIDIA Corporation,0001045810,https://investor.nvidia.com
+TSLA,Tesla Inc.,0001318605,https://ir.tesla.com
+BRK.B,Berkshire Hathaway Inc.,0001067983,https://www.berkshirehathaway.com
+UNH,UnitedHealth Group Incorporated,0000731766,https://www.unitedhealthgroup.com/investors
+JNJ,Johnson & Johnson,0000200406,https://www.investor.jnj.com
+V,Visa Inc.,0001403161,https://investor.visa.com
+XOM,Exxon Mobil Corporation,0000034088,https://investor.exxonmobil.com
+JPM,JPMorgan Chase & Co.,0000019617,https://www.jpmorganchase.com/ir
+WMT,Walmart Inc.,0000104169,https://stock.walmart.com
+MA,Mastercard Incorporated,0001141391,https://investor.mastercard.com
+PG,The Procter & Gamble Company,0000080424,https://www.pginvestor.com
+HD,The Home Depot Inc.,0000354950,https://ir.homedepot.com
+CVX,Chevron Corporation,0000093410,https://www.chevron.com/investors
+MRK,Merck & Co. Inc.,0000310158,https://www.merck.com/investor-relations
+ABBV,AbbVie Inc.,0001551152,https://investors.abbvie.com
+LLY,Eli Lilly and Company,0000059478,https://investor.lilly.com
+PEP,PepsiCo Inc.,0000077476,https://investor.pepsico.com
+KO,The Coca-Cola Company,0000021344,https://investors.coca-colacompany.com
+COST,Costco Wholesale Corporation,0000909832,https://investor.costco.com
+AVGO,Broadcom Inc.,0001730168,https://investors.broadcom.com
+TMO,Thermo Fisher Scientific Inc.,0000097745,https://ir.thermofisher.com
+MCD,McDonald's Corporation,0000063908,https://investor.mcdonalds.com
+CSCO,Cisco Systems Inc.,0000858877,https://investor.cisco.com
+ACN,Accenture plc,0001467373,https://investor.accenture.com
+ABT,Abbott Laboratories,0000001800,https://www.abbottinvestor.com
