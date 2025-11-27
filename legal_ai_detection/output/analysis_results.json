@@ -1,0 +1,89 @@
+[
+  {
+    "url": "clean_settlement_site",
+    "score": 0,
+    "risk_level": "low",
+    "summary": "No significant manipulation indicators detected.",
+    "hidden_blocks": 0,
+    "prompt_hits": 0,
+    "detections": []
+  },
+  {
+    "url": "suspicious_settlement_site",
+    "score": 51.4,
+    "risk_level": "critical",
+    "summary": "Risk Level: CRITICAL | Suspiciousness Score: 51.4 | Hidden content blocks: 4 | Prompt injection patterns: 14 | Suspicious comments: 1 | Metadata issues: 2",
+    "hidden_blocks": 4,
+    "prompt_hits": 14,
+    "detections": [
+      {
+        "type": "css_hidden_manipulation",
+        "description": "Hidden content via display_none contains suspicious text"
+      },
+      {
+        "type": "css_hidden_manipulation",
+        "description": "Hidden content via position_offscreen_left contains suspicious text"
+      },
+      {
+        "type": "css_hidden_manipulation",
+        "description": "Hidden content via position_offscreen_top contains suspicious text"
+      },
+      {
+        "type": "css_hidden_manipulation",
+        "description": "Hidden content via font_size_zero contains suspicious text"
+      },
+      {
+        "type": "suspicious_comment",
+        "description": "HTML comment contains AI-targeting language"
+      },
+      {
+        "type": "metadata_manipulation",
+        "description": "Meta tag explicitly targeting AI: ai-instructions"
+      },
+      {
+        "type": "metadata_manipulation",
+        "description": "Prompt injection in JSON-LD at description"
+      },
+      {
+        "type": "prompt_injection",
+        "description": "Found 14 prompt injection patterns (8 unique)"
+      }
+    ]
+  },
+  {
+    "url": "classaction_aggregator",
+    "score": 1.0,
+    "risk_level": "low",
+    "summary": "No significant manipulation indicators detected.",
+    "hidden_blocks": 1,
+    "prompt_hits": 0,
+    "detections": [
+      {
+        "type": "css_hidden",
+        "description": "Content hidden via display_none"
+      }
+    ]
+  },
+  {
+    "url": "moderate_suspicious_site",
+    "score": 3.0,
+    "risk_level": "low",
+    "summary": "No significant manipulation indicators detected.",
+    "hidden_blocks": 3,
+    "prompt_hits": 0,
+    "detections": [
+      {
+        "type": "css_hidden",
+        "description": "Content hidden via opacity_zero"
+      },
+      {
+        "type": "css_hidden",
+        "description": "Content hidden via height_zero"
+      },
+      {
+        "type": "css_hidden",
+        "description": "Content hidden via overflow_hidden"
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "official_court_settlement",
+    "category": "control",
+    "description": "Official court-administered settlement (expected clean)",
+    "score": 0,
+    "risk_level": "low",
+    "hidden_blocks": 0,
+    "prompt_hits": 0,
+    "detections": 0,
+    "comments": 0,
+    "metadata_issues": 0
+  },
+  {
+    "name": "promotional_settlement_site",
+    "category": "treatment",
+    "description": "Settlement site with hidden promotional content targeting AI",
+    "score": 57.5,
+    "risk_level": "critical",
+    "hidden_blocks": 0,
+    "prompt_hits": 14,
+    "detections": 5,
+    "comments": 2,
+    "metadata_issues": 2
+  },
+  {
+    "name": "classaction_aggregator_site",
+    "category": "treatment",
+    "description": "Class action news/aggregator site (typical hidden elements)",
+    "score": 3.0,
+    "risk_level": "low",
+    "hidden_blocks": 3,
+    "prompt_hits": 0,
+    "detections": 3,
+    "comments": 0,
+    "metadata_issues": 0
+  },
+  {
+    "name": "lawfirm_settlement_page",
+    "category": "treatment",
+    "description": "Law firm's settlement page with subtle AI-targeting",
+    "score": 14.4,
+    "risk_level": "high",
+    "hidden_blocks": 2,
+    "prompt_hits": 2,
+    "detections": 4,
+    "comments": 1,
+    "metadata_issues": 0
+  },
+  {
+    "name": "crypto_settlement_site",
+    "category": "treatment",
+    "description": "Crypto-related settlement with aggressive AI manipulation",
+    "score": 43.6,
+    "risk_level": "critical",
+    "hidden_blocks": 4,
+    "prompt_hits": 10,
+    "detections": 7,
+    "comments": 1,
+    "metadata_issues": 1
+  },
+  {
+    "name": "stanford_scac_style",
+    "category": "control",
+    "description": "Academic database style page (expected clean)",
+    "score": 0,
+    "risk_level": "low",
+    "hidden_blocks": 0,
+    "prompt_hits": 0,
+    "detections": 0,
+    "comments": 0,
+    "metadata_issues": 0
+  },
+  {
+    "name": "sec_fair_fund_style",
+    "category": "control",
+    "description": "SEC-style official government page",
+    "score": 0,
+    "risk_level": "low",
+    "hidden_blocks": 0,
+    "prompt_hits": 0,
+    "detections": 0,
+    "comments": 0,
+    "metadata_issues": 0
+  }
+]

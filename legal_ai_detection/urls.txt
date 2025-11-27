@@ -1,0 +1,24 @@
+# Legal Settlement URLs for AI Manipulation Detection
+# High-probability targets (settlement claim sites)
+
+# Major Data Breach Settlements
+https://www.equifaxbreachsettlement.com
+https://www.t-mobilesettlement.com
+https://www.capitalonesettlement.com
+
+# Settlement Administrators
+https://www.gilardi.com
+https://www.jndla.com
+https://www.simpluris.com
+
+# Class Action Aggregators
+https://www.classaction.org
+https://www.topclassactions.com
+
+# Control Sites (Official/Academic - expected clean)
+https://securities.stanford.edu
+https://www.sec.gov
+
+# Additional Settlement Sites
+https://www.totalclaimsolution.com
+https://www.strategicclaims.net

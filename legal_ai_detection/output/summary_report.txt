@@ -1,0 +1,27 @@
+======================================================================
+LEGAL AI MANIPULATION DETECTION - SUMMARY REPORT
+Generated: 2025-11-27T06:13:52.889025
+======================================================================
+
+OVERVIEW
+----------------------------------------
+Total URLs analyzed: 0
+Average suspiciousness score: 0.00
+
+RISK DISTRIBUTION
+----------------------------------------
+  CRITICAL  :   0 (  0.0%)
+  HIGH      :   0 (  0.0%)
+  MEDIUM    :   0 (  0.0%)
+  LOW       :   0 (  0.0%)
+
+DETECTION TOTALS
+----------------------------------------
+  Hidden content blocks: 0
+  Prompt injection hits: 0
+  Suspicious comments: 0
+  Metadata issues: 0
+
+TOP 10 MOST SUSPICIOUS SITES
+----------------------------------------
+
