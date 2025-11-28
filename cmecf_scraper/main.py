@@ -121,11 +121,20 @@ class CMECFScraper:
                 'year': DatePrecision.YEAR,
             }
 
+            # Normalize date string for different precisions
+            date_str = known['date']
+            if known['precision'] == 'exact':
+                normalized = date_str  # Already YYYY-MM-DD
+            elif known['precision'] == 'month':
+                normalized = f"{date_str}-01" if len(date_str) == 7 else date_str
+            else:  # year
+                normalized = f"{date_str}-01-01" if len(date_str) == 4 else date_str
+
             candidate = DateCandidate(
-                date_str=known['date'],
-                normalized_date=known['date'] if len(known['date']) == 10 else f"{known['date']}-01-01",
+                date_str=date_str,
+                normalized_date=normalized,
                 precision=precision_map.get(known['precision'], DatePrecision.YEAR),
-                source_url="known_reference",
+                source_url=known.get('source_url', 'known_reference'),
                 source_type=SourceType.KNOWN_REFERENCE,
                 source_text=known.get('notes', ''),
                 confidence_score=5,

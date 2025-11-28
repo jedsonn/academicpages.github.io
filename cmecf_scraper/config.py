@@ -225,26 +225,74 @@ DISTRICT_COURTS: Dict[str, Dict[str, Any]] = {
 }
 
 # Known reference points for validation
-# Sources: Wikipedia CM/ECF article, court websites, FJC records, web research
+# Sources: Wikipedia CM/ECF, court websites, FJC records, DOJ archives, web research
+# Each entry includes: date, precision (exact/month/year), notes, and source_url
 KNOWN_DATES = {
-    # Early pilots (1996-1997)
-    "ohnd": {"date": "1996", "precision": "year", "notes": "First pilot - asbestos cases"},
-    "mowd": {"date": "1997", "precision": "year", "notes": "Late 1997 pilot"},
-    "nyed": {"date": "1997", "precision": "year", "notes": "Late 1997 pilot"},
-    "ord": {"date": "1997", "precision": "year", "notes": "Late 1997 pilot"},
+    # ========== EARLY PILOTS (1996-1997) ==========
+    # First CM/ECF pilots before national rollout
+    "ohnd": {"date": "1996", "precision": "year", "notes": "First pilot - asbestos cases",
+             "source_url": "https://en.wikipedia.org/wiki/CM/ECF"},
+    "mowd": {"date": "1997", "precision": "year", "notes": "Late 1997 pilot",
+             "source_url": "https://en.wikipedia.org/wiki/CM/ECF"},
+    "nyed": {"date": "1997", "precision": "year", "notes": "Late 1997 pilot",
+             "source_url": "https://en.wikipedia.org/wiki/CM/ECF"},
+    "ord": {"date": "1997", "precision": "year", "notes": "Late 1997 pilot",
+            "source_url": "https://en.wikipedia.org/wiki/CM/ECF"},
 
-    # National rollout began May 2002
-    "cand": {"date": "2001-04-02", "precision": "exact", "notes": "Pilot April 2, 2001; Full January 1, 2003"},
-    "flsd": {"date": "2002", "precision": "year", "notes": "Local system 2002, mandatory 2004"},
+    # ========== BANKRUPTCY PILOTS (2001-2002) ==========
+    # Early bankruptcy CM/ECF pilot courts (district courts followed)
+    "vaed": {"date": "2002", "precision": "year", "notes": "Early pilot district; Standing Order 01-6 Nov 2001",
+             "source_url": "https://www.justice.gov/archive/ust/articles/docs/abi_042002a.pdf"},
+    "ded": {"date": "2002", "precision": "year", "notes": "Bankruptcy CM/ECF pilot district",
+            "source_url": "https://www.justice.gov/archive/ust/articles/docs/abi_042002a.pdf"},
+    "gand": {"date": "2002", "precision": "year", "notes": "Bankruptcy CM/ECF pilot; General Order No. 5 Jan 2000",
+             "source_url": "https://www.justice.gov/archive/ust/articles/docs/abi_042002a.pdf"},
+    "casd": {"date": "2002", "precision": "year", "notes": "Bankruptcy CM/ECF pilot district",
+             "source_url": "https://www.justice.gov/archive/ust/articles/docs/abi_042002a.pdf"},
+    "nynd": {"date": "2002", "precision": "year", "notes": "District court implementation began 2002",
+             "source_url": "https://www.nynd.uscourts.gov/cmecf"},
 
-    # 2003 implementations
-    "sdd": {"date": "2003-07-03", "precision": "exact", "notes": "CM/ECF went live per court website"},
-    "mad": {"date": "2003-10-01", "precision": "exact", "notes": "Local Rule 5.4 electronic filing"},
-    "okwd": {"date": "2003-10-14", "precision": "exact", "notes": "Document scanning began"},
-    "nysd": {"date": "2003-12-02", "precision": "exact", "notes": "New civil and criminal cases assigned to ECF"},
+    # ========== NATIONAL ROLLOUT (2002-2003) ==========
+    # District court rollout began May 2002
+    "cand": {"date": "2001-04-02", "precision": "exact", "notes": "Pilot April 2, 2001; Full January 1, 2003",
+             "source_url": "https://en.wikipedia.org/wiki/CM/ECF"},
+    "flsd": {"date": "2002", "precision": "year", "notes": "Local system 2002, mandatory 2004",
+             "source_url": "https://en.wikipedia.org/wiki/CM/ECF"},
 
-    # Later implementations
-    "mied": {"date": "2005-11-30", "precision": "exact", "notes": ""},
+    # ========== 2003 IMPLEMENTATIONS ==========
+    "sdd": {"date": "2003-07-03", "precision": "exact", "notes": "CM/ECF went live per court website",
+            "source_url": "https://www.sdd.uscourts.gov/case-info/cm-ecf-case-info"},
+    "mad": {"date": "2003-10-01", "precision": "exact", "notes": "Local Rule 5.4 electronic filing",
+            "source_url": "https://www.mad.uscourts.gov/caseinfo/pdf/ECFadminProc.pdf"},
+    "ctd": {"date": "2003-10", "precision": "month", "notes": "Converted existing case data to CM/ECF October 2003",
+            "source_url": "https://www.ctd.uscourts.gov/cmecf-notices-instructions-0"},
+    "okwd": {"date": "2003-10-14", "precision": "exact", "notes": "Document scanning began",
+             "source_url": "https://www.okwd.uscourts.gov/ecf"},
+    "laed": {"date": "2003-12", "precision": "month", "notes": "Cases available Dec 2003; mandatory Jan 2007",
+             "source_url": "https://www.laed.uscourts.gov/case-information/electronic-filing"},
+    "nysd": {"date": "2003-12-02", "precision": "exact", "notes": "New civil and criminal cases assigned to ECF",
+             "source_url": "https://www.nysd.uscourts.gov/rules/ecf-related-instructions"},
+
+    # ========== 2004 IMPLEMENTATIONS ==========
+    "njd": {"date": "2004-01-05", "precision": "exact", "notes": "Documents available online after this date",
+            "source_url": "https://www.historynjdc.org/history/history-of-the-united-states-district-court-for-the-district-of-new-jersey"},
+    "mied": {"date": "2004-06-01", "precision": "exact", "notes": "Official record electronic; mandatory Nov 30, 2005",
+             "source_url": "https://www.mied.uscourts.gov/pdffiles/policies_procedures.pdf"},
+
+    # ========== 2005 IMPLEMENTATIONS ==========
+    "cod": {"date": "2005-06-20", "precision": "exact", "notes": "Electronic filing live; no paper files after this date",
+            "source_url": "http://www.cod.uscourts.gov/Portals/0/Documents/CMECF/CM-Archived/cm_slides_intro.pdf"},
+
+    # ========== 2006 IMPLEMENTATIONS ==========
+    "txwd": {"date": "2006-09-01", "precision": "exact", "notes": "Electronic filing began; mandatory Nov 1, 2006",
+             "source_url": "https://www.txwd.uscourts.gov/wp-content/uploads/Attorney%20Application%20and%20Registration/Administrative%20Policies%20and%20Procedures%20for%20Electronic%20Filing%20in%20Civil%20&%20Criminal%20Cases.pdf"},
+
+    # ========== INFERRED DATES (based on national rollout) ==========
+    # National district court rollout: May 2002 - 2006
+    # Most courts were live by end of 2005; all by 2008
+    # For research purposes, courts without exact dates can use:
+    # - 2004 as conservative estimate (mid-rollout)
+    # - 2005 as likely date for most remaining courts
 }
 
 # User agents for rotation

@@ -140,16 +140,23 @@ class CourtData:
         return sorted_candidates[0] if sorted_candidates else None
 
     def apply_best_candidate(self) -> None:
-        """Apply the best candidate to the main fields."""
+        """Apply the best candidate to the main fields.
+
+        Note: For research purposes (staggered diff-in-diff), pilot dates are
+        used as the go-live date since that's when CM/ECF first became available
+        in the district, even if not mandatory.
+        """
         best = self.select_best_candidate()
         if best:
+            # Always set the go-live date (even for pilots, as that's when CM/ECF first went live)
+            self.cmecf_go_live_date = best.normalized_date
+            self.cmecf_go_live_date_precision = best.precision
+
+            # Also record in specific field if applicable
             if best.is_pilot:
                 self.pilot_program_date = best.normalized_date
             elif best.is_mandatory:
                 self.mandatory_efiling_date = best.normalized_date
-            else:
-                self.cmecf_go_live_date = best.normalized_date
-                self.cmecf_go_live_date_precision = best.precision
 
             self.source_url = best.source_url
             self.source_type = best.source_type

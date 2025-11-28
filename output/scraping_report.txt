@@ -1,19 +1,19 @@
 ============================================================
 CM/ECF SCRAPING REPORT
-Generated: 2025-11-28 21:44:05
+Generated: 2025-11-28 22:41:03
 ============================================================
 
 SUMMARY STATISTICS
 ----------------------------------------
 Total courts:           94
-Courts with dates:      6 (6.4%)
-High confidence (4-5):  11 (11.7%)
-Exact dates:            5 (5.3%)
+Courts with dates:      21 (22.3%)
+High confidence (4-5):  21 (22.3%)
+Exact dates:            9 (9.6%)
 
 BY SOURCE TYPE
 ----------------------------------------
-  not_found: 83
-  known_reference: 11
+  not_found: 73
+  known_reference: 21
 
 COURTS WITHOUT DATES
 ----------------------------------------
@@ -21,13 +21,8 @@ COURTS WITHOUT DATES
   nhd: District of New Hampshire
   prd: District of Puerto Rico
   rid: District of Rhode Island
-  ctd: District of Connecticut
-  nyed: Eastern District of New York
-  nynd: Northern District of New York
   nywd: Western District of New York
   vtd: District of Vermont
-  ded: District of Delaware
-  njd: District of New Jersey
   paed: Eastern District of Pennsylvania
   pamd: Middle District of Pennsylvania
   pawd: Western District of Pennsylvania
@@ -37,11 +32,9 @@ COURTS WITHOUT DATES
   ncmd: Middle District of North Carolina
   ncwd: Western District of North Carolina
   scd: District of South Carolina
-  vaed: Eastern District of Virginia
   vawd: Western District of Virginia
   wvnd: Northern District of West Virginia
   wvsd: Southern District of West Virginia
-  laed: Eastern District of Louisiana
   lamd: Middle District of Louisiana
   lawd: Western District of Louisiana
   msnd: Northern District of Mississippi
@@ -49,11 +42,9 @@ COURTS WITHOUT DATES
   txed: Eastern District of Texas
   txnd: Northern District of Texas
   txsd: Southern District of Texas
-  txwd: Western District of Texas
   kyed: Eastern District of Kentucky
   kywd: Western District of Kentucky
   miwd: Western District of Michigan
-  ohnd: Northern District of Ohio
   ohsd: Southern District of Ohio
   tned: Eastern District of Tennessee
   tnmd: Middle District of Tennessee
@@ -71,25 +62,20 @@ COURTS WITHOUT DATES
   iand: Northern District of Iowa
   mnd: District of Minnesota
   moed: Eastern District of Missouri
-  mowd: Western District of Missouri
   ned: District of Nebraska
   ndd: District of North Dakota
   akd: District of Alaska
   azd: District of Arizona
   cacd: Central District of California
   caed: Eastern District of California
-  cand: Northern District of California
-  casd: Southern District of California
   gud: District of Guam
   hid: District of Hawaii
   idd: District of Idaho
   mtd: District of Montana
   nvd: District of Nevada
   nmid: District of Northern Mariana Islands
-  ord: District of Oregon
   waed: Eastern District of Washington
   wawd: Western District of Washington
-  cod: District of Colorado
   ksd: District of Kansas
   nmd: District of New Mexico
   oked: Eastern District of Oklahoma
@@ -102,7 +88,6 @@ COURTS WITHOUT DATES
   flmd: Middle District of Florida
   flnd: Northern District of Florida
   gamd: Middle District of Georgia
-  gand: Northern District of Georgia
   gasd: Southern District of Georgia
   dcd: District of Columbia
 
@@ -116,18 +101,18 @@ VALIDATION WARNINGS
   - No source text for prd
   - No source URL for rid
   - No source text for rid
-  - No source URL for ctd
-  - No source text for ctd
-  - No source URL for nynd
-  - No source text for nynd
   - No source URL for nywd
   - No source text for nywd
   - No source URL for vtd
   - No source text for vtd
-  - No source URL for ded
-  - No source text for ded
-  - No source URL for njd
-  - No source text for njd
-  ... and 147 more warnings
+  - No source URL for paed
+  - No source text for paed
+  - No source URL for pamd
+  - No source text for pamd
+  - No source URL for pawd
+  - No source text for pawd
+  - No source URL for vid
+  - No source text for vid
+  ... and 130 more warnings
 
 ============================================================
