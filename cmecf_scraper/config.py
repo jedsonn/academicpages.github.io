@@ -225,15 +225,25 @@ DISTRICT_COURTS: Dict[str, Dict[str, Any]] = {
 }
 
 # Known reference points for validation
+# Sources: Wikipedia CM/ECF article, court websites, FJC records, web research
 KNOWN_DATES = {
-    "ohnd": {"date": "1996", "precision": "year", "notes": "Pilot - asbestos cases"},
+    # Early pilots (1996-1997)
+    "ohnd": {"date": "1996", "precision": "year", "notes": "First pilot - asbestos cases"},
     "mowd": {"date": "1997", "precision": "year", "notes": "Late 1997 pilot"},
     "nyed": {"date": "1997", "precision": "year", "notes": "Late 1997 pilot"},
     "ord": {"date": "1997", "precision": "year", "notes": "Late 1997 pilot"},
+
+    # National rollout began May 2002
     "cand": {"date": "2001-04-02", "precision": "exact", "notes": "Pilot April 2, 2001; Full January 1, 2003"},
-    "sdd": {"date": "2003-07-03", "precision": "exact", "notes": ""},
-    "mad": {"date": "2003-10-01", "precision": "exact", "notes": ""},
     "flsd": {"date": "2002", "precision": "year", "notes": "Local system 2002, mandatory 2004"},
+
+    # 2003 implementations
+    "sdd": {"date": "2003-07-03", "precision": "exact", "notes": "CM/ECF went live per court website"},
+    "mad": {"date": "2003-10-01", "precision": "exact", "notes": "Local Rule 5.4 electronic filing"},
+    "okwd": {"date": "2003-10-14", "precision": "exact", "notes": "Document scanning began"},
+    "nysd": {"date": "2003-12-02", "precision": "exact", "notes": "New civil and criminal cases assigned to ECF"},
+
+    # Later implementations
     "mied": {"date": "2005-11-30", "precision": "exact", "notes": ""},
 }
 

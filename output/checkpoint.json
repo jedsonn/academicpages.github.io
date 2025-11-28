@@ -10,8 +10,8 @@
     "pilot_program_date": null,
     "source_url": "known_reference",
     "source_type": "known_reference",
-    "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:09.259447",
+    "source_text": "Local Rule 5.4 electronic filing",
+    "extraction_timestamp": "2025-11-28T21:24:40.910440",
     "confidence_score": 5,
     "notes": ""
   },
@@ -27,7 +27,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:12.181419",
+    "extraction_timestamp": "2025-11-28T21:24:48.844360",
     "confidence_score": 0,
     "notes": ""
   },
@@ -43,7 +43,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:15.101780",
+    "extraction_timestamp": "2025-11-28T21:25:01.824769",
     "confidence_score": 0,
     "notes": ""
   },
@@ -59,7 +59,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:18.030494",
+    "extraction_timestamp": "2025-11-28T21:25:14.818359",
     "confidence_score": 0,
     "notes": ""
   },
@@ -75,7 +75,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:20.954489",
+    "extraction_timestamp": "2025-11-28T21:25:27.803552",
     "confidence_score": 0,
     "notes": ""
   },
@@ -91,7 +91,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:23.877587",
+    "extraction_timestamp": "2025-11-28T21:25:40.771383",
     "confidence_score": 0,
     "notes": ""
   },
@@ -107,7 +107,7 @@
     "source_url": "known_reference",
     "source_type": "known_reference",
     "source_text": "Late 1997 pilot",
-    "extraction_timestamp": "2025-11-28T20:58:26.803699",
+    "extraction_timestamp": "2025-11-28T21:25:53.758433",
     "confidence_score": 5,
     "notes": ""
   },
@@ -123,7 +123,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:29.729136",
+    "extraction_timestamp": "2025-11-28T21:26:01.694165",
     "confidence_score": 0,
     "notes": ""
   },
@@ -132,15 +132,15 @@
     "court_name": "Southern District of New York",
     "circuit": "2",
     "state": "NY",
-    "cmecf_go_live_date": null,
-    "cmecf_go_live_date_precision": "unknown",
+    "cmecf_go_live_date": "2003-12-02",
+    "cmecf_go_live_date_precision": "exact",
     "mandatory_efiling_date": null,
     "pilot_program_date": null,
-    "source_url": null,
-    "source_type": "not_found",
-    "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:32.653996",
-    "confidence_score": 0,
+    "source_url": "known_reference",
+    "source_type": "known_reference",
+    "source_text": "New civil and criminal cases assigned to ECF",
+    "extraction_timestamp": "2025-11-28T21:26:14.660019",
+    "confidence_score": 5,
     "notes": ""
   },
   "nywd": {
@@ -155,7 +155,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:35.577027",
+    "extraction_timestamp": "2025-11-28T21:26:22.594450",
     "confidence_score": 0,
     "notes": ""
   },
@@ -171,7 +171,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:38.500979",
+    "extraction_timestamp": "2025-11-28T21:26:35.631043",
     "confidence_score": 0,
     "notes": ""
   },
@@ -187,7 +187,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:41.421421",
+    "extraction_timestamp": "2025-11-28T21:26:48.596502",
     "confidence_score": 0,
     "notes": ""
   },
@@ -203,7 +203,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:44.345518",
+    "extraction_timestamp": "2025-11-28T21:27:01.571915",
     "confidence_score": 0,
     "notes": ""
   },
@@ -219,7 +219,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:47.315430",
+    "extraction_timestamp": "2025-11-28T21:27:14.557651",
     "confidence_score": 0,
     "notes": ""
   },
@@ -235,7 +235,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:50.236139",
+    "extraction_timestamp": "2025-11-28T21:27:27.522099",
     "confidence_score": 0,
     "notes": ""
   },
@@ -251,7 +251,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:53.160138",
+    "extraction_timestamp": "2025-11-28T21:27:40.509238",
     "confidence_score": 0,
     "notes": ""
   },
@@ -267,7 +267,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:56.087091",
+    "extraction_timestamp": "2025-11-28T21:27:53.525799",
     "confidence_score": 0,
     "notes": ""
   },
@@ -283,7 +283,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:58:59.004125",
+    "extraction_timestamp": "2025-11-28T21:28:06.495676",
     "confidence_score": 0,
     "notes": ""
   },
@@ -299,7 +299,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:01.927343",
+    "extraction_timestamp": "2025-11-28T21:28:19.463817",
     "confidence_score": 0,
     "notes": ""
   },
@@ -315,7 +315,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:04.854373",
+    "extraction_timestamp": "2025-11-28T21:28:32.429582",
     "confidence_score": 0,
     "notes": ""
   },
@@ -331,7 +331,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:07.780031",
+    "extraction_timestamp": "2025-11-28T21:28:45.395759",
     "confidence_score": 0,
     "notes": ""
   },
@@ -347,7 +347,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:10.705873",
+    "extraction_timestamp": "2025-11-28T21:28:58.364345",
     "confidence_score": 0,
     "notes": ""
   },
@@ -363,7 +363,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:13.631754",
+    "extraction_timestamp": "2025-11-28T21:29:11.329087",
     "confidence_score": 0,
     "notes": ""
   },
@@ -379,7 +379,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:16.559038",
+    "extraction_timestamp": "2025-11-28T21:29:24.298443",
     "confidence_score": 0,
     "notes": ""
   },
@@ -395,7 +395,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:19.480774",
+    "extraction_timestamp": "2025-11-28T21:29:37.288494",
     "confidence_score": 0,
     "notes": ""
   },
@@ -411,7 +411,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:22.408132",
+    "extraction_timestamp": "2025-11-28T21:29:50.252939",
     "confidence_score": 0,
     "notes": ""
   },
@@ -427,7 +427,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:25.334059",
+    "extraction_timestamp": "2025-11-28T21:30:03.216174",
     "confidence_score": 0,
     "notes": ""
   },
@@ -443,7 +443,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:28.259321",
+    "extraction_timestamp": "2025-11-28T21:30:16.194110",
     "confidence_score": 0,
     "notes": ""
   },
@@ -459,7 +459,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:31.184077",
+    "extraction_timestamp": "2025-11-28T21:30:29.156921",
     "confidence_score": 0,
     "notes": ""
   },
@@ -475,7 +475,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:34.110059",
+    "extraction_timestamp": "2025-11-28T21:30:42.152309",
     "confidence_score": 0,
     "notes": ""
   },
@@ -491,7 +491,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:37.035862",
+    "extraction_timestamp": "2025-11-28T21:30:55.118977",
     "confidence_score": 0,
     "notes": ""
   },
@@ -507,7 +507,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:39.958680",
+    "extraction_timestamp": "2025-11-28T21:31:08.083281",
     "confidence_score": 0,
     "notes": ""
   },
@@ -523,7 +523,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:42.883705",
+    "extraction_timestamp": "2025-11-28T21:31:21.047251",
     "confidence_score": 0,
     "notes": ""
   },
@@ -539,7 +539,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:45.809214",
+    "extraction_timestamp": "2025-11-28T21:31:34.015806",
     "confidence_score": 0,
     "notes": ""
   },
@@ -555,7 +555,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:48.733089",
+    "extraction_timestamp": "2025-11-28T21:31:47.086874",
     "confidence_score": 0,
     "notes": ""
   },
@@ -571,7 +571,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:51.658615",
+    "extraction_timestamp": "2025-11-28T21:32:00.151385",
     "confidence_score": 0,
     "notes": ""
   },
@@ -587,7 +587,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:54.581655",
+    "extraction_timestamp": "2025-11-28T21:32:13.112546",
     "confidence_score": 0,
     "notes": ""
   },
@@ -603,7 +603,7 @@
     "source_url": "known_reference",
     "source_type": "known_reference",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T20:59:57.545680",
+    "extraction_timestamp": "2025-11-28T21:32:26.073449",
     "confidence_score": 5,
     "notes": ""
   },
@@ -619,7 +619,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:00.468442",
+    "extraction_timestamp": "2025-11-28T21:32:34.007728",
     "confidence_score": 0,
     "notes": ""
   },
@@ -634,8 +634,8 @@
     "pilot_program_date": "1996-01-01",
     "source_url": "known_reference",
     "source_type": "known_reference",
-    "source_text": "Pilot - asbestos cases",
-    "extraction_timestamp": "2025-11-28T21:00:03.394423",
+    "source_text": "First pilot - asbestos cases",
+    "extraction_timestamp": "2025-11-28T21:32:46.987069",
     "confidence_score": 5,
     "notes": ""
   },
@@ -651,7 +651,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:06.321832",
+    "extraction_timestamp": "2025-11-28T21:32:54.936397",
     "confidence_score": 0,
     "notes": ""
   },
@@ -667,7 +667,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:09.247161",
+    "extraction_timestamp": "2025-11-28T21:33:07.914936",
     "confidence_score": 0,
     "notes": ""
   },
@@ -683,7 +683,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:12.170836",
+    "extraction_timestamp": "2025-11-28T21:33:20.880741",
     "confidence_score": 0,
     "notes": ""
   },
@@ -699,7 +699,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:15.095765",
+    "extraction_timestamp": "2025-11-28T21:33:33.844354",
     "confidence_score": 0,
     "notes": ""
   },
@@ -715,7 +715,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:18.020907",
+    "extraction_timestamp": "2025-11-28T21:33:46.825348",
     "confidence_score": 0,
     "notes": ""
   },
@@ -731,7 +731,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:20.946563",
+    "extraction_timestamp": "2025-11-28T21:33:59.834707",
     "confidence_score": 0,
     "notes": ""
   },
@@ -747,7 +747,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:23.872693",
+    "extraction_timestamp": "2025-11-28T21:34:12.796159",
     "confidence_score": 0,
     "notes": ""
   },
@@ -763,7 +763,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:26.795386",
+    "extraction_timestamp": "2025-11-28T21:34:25.834805",
     "confidence_score": 0,
     "notes": ""
   },
@@ -779,7 +779,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:29.719111",
+    "extraction_timestamp": "2025-11-28T21:34:38.799605",
     "confidence_score": 0,
     "notes": ""
   },
@@ -795,7 +795,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:32.644019",
+    "extraction_timestamp": "2025-11-28T21:34:51.761579",
     "confidence_score": 0,
     "notes": ""
   },
@@ -811,7 +811,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:35.581510",
+    "extraction_timestamp": "2025-11-28T21:35:04.727590",
     "confidence_score": 0,
     "notes": ""
   },
@@ -827,7 +827,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:38.505002",
+    "extraction_timestamp": "2025-11-28T21:35:17.701408",
     "confidence_score": 0,
     "notes": ""
   },
@@ -843,7 +843,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:41.426867",
+    "extraction_timestamp": "2025-11-28T21:35:30.669026",
     "confidence_score": 0,
     "notes": ""
   },
@@ -859,7 +859,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:44.349652",
+    "extraction_timestamp": "2025-11-28T21:35:43.636021",
     "confidence_score": 0,
     "notes": ""
   },
@@ -875,7 +875,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:47.271258",
+    "extraction_timestamp": "2025-11-28T21:35:56.673559",
     "confidence_score": 0,
     "notes": ""
   },
@@ -891,7 +891,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:50.195302",
+    "extraction_timestamp": "2025-11-28T21:36:09.637910",
     "confidence_score": 0,
     "notes": ""
   },
@@ -907,7 +907,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:53.123057",
+    "extraction_timestamp": "2025-11-28T21:36:22.616398",
     "confidence_score": 0,
     "notes": ""
   },
@@ -923,7 +923,7 @@
     "source_url": "known_reference",
     "source_type": "known_reference",
     "source_text": "Late 1997 pilot",
-    "extraction_timestamp": "2025-11-28T21:00:56.047314",
+    "extraction_timestamp": "2025-11-28T21:36:35.588015",
     "confidence_score": 5,
     "notes": ""
   },
@@ -939,7 +939,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:00:58.971326",
+    "extraction_timestamp": "2025-11-28T21:36:43.525535",
     "confidence_score": 0,
     "notes": ""
   },
@@ -955,7 +955,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:01.893097",
+    "extraction_timestamp": "2025-11-28T21:36:56.537390",
     "confidence_score": 0,
     "notes": ""
   },
@@ -970,8 +970,8 @@
     "pilot_program_date": null,
     "source_url": "known_reference",
     "source_type": "known_reference",
-    "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:04.820499",
+    "source_text": "CM/ECF went live per court website",
+    "extraction_timestamp": "2025-11-28T21:37:09.504369",
     "confidence_score": 5,
     "notes": ""
   },
@@ -987,7 +987,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:07.745700",
+    "extraction_timestamp": "2025-11-28T21:37:17.439637",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1003,7 +1003,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:10.669897",
+    "extraction_timestamp": "2025-11-28T21:37:30.420870",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1019,7 +1019,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:13.588654",
+    "extraction_timestamp": "2025-11-28T21:37:43.439046",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1035,7 +1035,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:16.511271",
+    "extraction_timestamp": "2025-11-28T21:37:56.496365",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1051,7 +1051,7 @@
     "source_url": "known_reference",
     "source_type": "known_reference",
     "source_text": "Pilot April 2, 2001; Full January 1, 2003",
-    "extraction_timestamp": "2025-11-28T21:01:19.431379",
+    "extraction_timestamp": "2025-11-28T21:38:09.461627",
     "confidence_score": 5,
     "notes": ""
   },
@@ -1067,7 +1067,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:22.354191",
+    "extraction_timestamp": "2025-11-28T21:38:17.395589",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1083,7 +1083,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:25.281646",
+    "extraction_timestamp": "2025-11-28T21:38:30.383837",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1099,7 +1099,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:28.206808",
+    "extraction_timestamp": "2025-11-28T21:38:43.350770",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1115,7 +1115,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:31.130243",
+    "extraction_timestamp": "2025-11-28T21:38:56.330486",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1131,7 +1131,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:34.058102",
+    "extraction_timestamp": "2025-11-28T21:39:09.326889",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1147,7 +1147,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:36.987067",
+    "extraction_timestamp": "2025-11-28T21:39:22.297200",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1163,7 +1163,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:39.914733",
+    "extraction_timestamp": "2025-11-28T21:39:35.262843",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1179,7 +1179,7 @@
     "source_url": "known_reference",
     "source_type": "known_reference",
     "source_text": "Late 1997 pilot",
-    "extraction_timestamp": "2025-11-28T21:01:42.837944",
+    "extraction_timestamp": "2025-11-28T21:39:48.227480",
     "confidence_score": 5,
     "notes": ""
   },
@@ -1195,7 +1195,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:45.762069",
+    "extraction_timestamp": "2025-11-28T21:39:56.164320",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1211,7 +1211,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:48.686566",
+    "extraction_timestamp": "2025-11-28T21:40:09.133381",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1227,7 +1227,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:51.612986",
+    "extraction_timestamp": "2025-11-28T21:40:22.110717",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1243,7 +1243,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:54.538083",
+    "extraction_timestamp": "2025-11-28T21:40:35.089961",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1259,7 +1259,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:01:57.463085",
+    "extraction_timestamp": "2025-11-28T21:40:48.054814",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1275,7 +1275,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:00.388184",
+    "extraction_timestamp": "2025-11-28T21:41:01.033965",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1291,7 +1291,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:03.326883",
+    "extraction_timestamp": "2025-11-28T21:41:14.002833",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1300,15 +1300,15 @@
     "court_name": "Western District of Oklahoma",
     "circuit": "10",
     "state": "OK",
-    "cmecf_go_live_date": null,
-    "cmecf_go_live_date_precision": "unknown",
+    "cmecf_go_live_date": "2003-10-14",
+    "cmecf_go_live_date_precision": "exact",
     "mandatory_efiling_date": null,
     "pilot_program_date": null,
-    "source_url": null,
-    "source_type": "not_found",
-    "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:06.253273",
-    "confidence_score": 0,
+    "source_url": "known_reference",
+    "source_type": "known_reference",
+    "source_text": "Document scanning began",
+    "extraction_timestamp": "2025-11-28T21:41:26.969173",
+    "confidence_score": 5,
     "notes": ""
   },
   "utd": {
@@ -1323,7 +1323,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:09.180539",
+    "extraction_timestamp": "2025-11-28T21:41:34.907242",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1339,7 +1339,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:12.107096",
+    "extraction_timestamp": "2025-11-28T21:41:47.873250",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1355,7 +1355,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:15.032366",
+    "extraction_timestamp": "2025-11-28T21:42:00.862898",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1371,7 +1371,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:17.954833",
+    "extraction_timestamp": "2025-11-28T21:42:13.839818",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1387,7 +1387,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:20.879970",
+    "extraction_timestamp": "2025-11-28T21:42:26.806043",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1403,7 +1403,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:23.806640",
+    "extraction_timestamp": "2025-11-28T21:42:39.769461",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1419,7 +1419,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:26.734198",
+    "extraction_timestamp": "2025-11-28T21:42:52.784091",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1435,7 +1435,7 @@
     "source_url": "known_reference",
     "source_type": "known_reference",
     "source_text": "Local system 2002, mandatory 2004",
-    "extraction_timestamp": "2025-11-28T21:02:29.659166",
+    "extraction_timestamp": "2025-11-28T21:43:05.754608",
     "confidence_score": 5,
     "notes": ""
   },
@@ -1451,7 +1451,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:32.585665",
+    "extraction_timestamp": "2025-11-28T21:43:13.692273",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1467,7 +1467,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:35.509230",
+    "extraction_timestamp": "2025-11-28T21:43:26.655736",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1483,7 +1483,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:38.433984",
+    "extraction_timestamp": "2025-11-28T21:43:39.653996",
     "confidence_score": 0,
     "notes": ""
   },
@@ -1499,7 +1499,7 @@
     "source_url": null,
     "source_type": "not_found",
     "source_text": null,
-    "extraction_timestamp": "2025-11-28T21:02:41.359205",
+    "extraction_timestamp": "2025-11-28T21:43:52.619939",
     "confidence_score": 0,
     "notes": ""
   }

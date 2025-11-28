@@ -41,6 +41,8 @@ from scrapers.court_website import CourtWebsiteScraper
 from scrapers.pdf_parser import PDFOrderScraper
 from scrapers.wayback_scraper import WaybackScraper
 from scrapers.fjc_scraper import FJCScraper
+from scrapers.news_scraper import NewsScraper
+from scrapers.courtlistener_scraper import CourtListenerScraper
 from utils.rate_limiter import RateLimiter
 from utils.user_agent import UserAgentRotator
 from utils.validators import validate_court_data, cross_validate_circuits
@@ -98,6 +100,8 @@ class CMECFScraper:
             rate_limiter=self.rate_limiter,
             user_agent_rotator=self.ua_rotator
         )
+        self.news_scraper = NewsScraper(config={})
+        self.courtlistener_scraper = CourtListenerScraper(config={})
 
         # Results storage
         self.results: Dict[str, CourtData] = {}
@@ -175,6 +179,48 @@ class CMECFScraper:
                 self.wayback_scraper.scrape(court_data)
             except Exception as e:
                 logger.error(f"Error with Wayback for {court_id}: {e}")
+
+        # Step 4: Query CourtListener for earliest filings (lower bound)
+        try:
+            logger.info(f"Querying CourtListener for {court_id}")
+            config = DISTRICT_COURTS[court_id]
+            cl_candidates = self.courtlistener_scraper.scrape(court_id, config)
+            for candidate in cl_candidates:
+                # Convert to our DateCandidate format
+                court_data.all_candidates.append(DateCandidate(
+                    date_str=candidate.date.isoformat() if candidate.date else '',
+                    normalized_date=candidate.date.isoformat() if candidate.date else '',
+                    precision=DatePrecision.EXACT,
+                    source_url=candidate.source_url or '',
+                    source_type=SourceType.COURT_WEBSITE,  # Close enough
+                    source_text=candidate.context or '',
+                    confidence_score=candidate.confidence,
+                    context=f"CourtListener: {candidate.context}",
+                    is_pilot=False,
+                ))
+        except Exception as e:
+            logger.error(f"Error with CourtListener for {court_id}: {e}")
+
+        # Step 5: Search news for announcements
+        if court_data.confidence_score < 3:
+            try:
+                logger.info(f"Searching news for {court_id}")
+                config = DISTRICT_COURTS[court_id]
+                news_candidates = self.news_scraper.scrape(court_id, config)
+                for candidate in news_candidates:
+                    court_data.all_candidates.append(DateCandidate(
+                        date_str=candidate.date.isoformat() if candidate.date else '',
+                        normalized_date=candidate.date.isoformat() if candidate.date else '',
+                        precision=DatePrecision.EXACT,
+                        source_url=candidate.source_url or '',
+                        source_type=SourceType.COURT_WEBSITE,
+                        source_text=candidate.context or '',
+                        confidence_score=candidate.confidence,
+                        context=f"News: {candidate.context}",
+                        is_pilot=False,
+                    ))
+            except Exception as e:
+                logger.error(f"Error with news search for {court_id}: {e}")
 
         # Apply best candidate to main fields
         court_data.apply_best_candidate()

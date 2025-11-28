@@ -1,19 +1,19 @@
 ============================================================
 CM/ECF SCRAPING REPORT
-Generated: 2025-11-28 21:02:44
+Generated: 2025-11-28 21:44:05
 ============================================================
 
 SUMMARY STATISTICS
 ----------------------------------------
 Total courts:           94
-Courts with dates:      4 (4.3%)
-High confidence (4-5):  9 (9.6%)
-Exact dates:            3 (3.2%)
+Courts with dates:      6 (6.4%)
+High confidence (4-5):  11 (11.7%)
+Exact dates:            5 (5.3%)
 
 BY SOURCE TYPE
 ----------------------------------------
-  not_found: 85
-  known_reference: 9
+  not_found: 83
+  known_reference: 11
 
 COURTS WITHOUT DATES
 ----------------------------------------
@@ -24,7 +24,6 @@ COURTS WITHOUT DATES
   ctd: District of Connecticut
   nyed: Eastern District of New York
   nynd: Northern District of New York
-  nysd: Southern District of New York
   nywd: Western District of New York
   vtd: District of Vermont
   ded: District of Delaware
@@ -95,7 +94,6 @@ COURTS WITHOUT DATES
   nmd: District of New Mexico
   oked: Eastern District of Oklahoma
   oknd: Northern District of Oklahoma
-  okwd: Western District of Oklahoma
   utd: District of Utah
   wyd: District of Wyoming
   almd: Middle District of Alabama
@@ -110,7 +108,6 @@ COURTS WITHOUT DATES
 
 VALIDATION WARNINGS
 ----------------------------------------
-  - No source text for mad
   - No source URL for med
   - No source text for med
   - No source URL for nhd
@@ -123,13 +120,14 @@ VALIDATION WARNINGS
   - No source text for ctd
   - No source URL for nynd
   - No source text for nynd
-  - No source URL for nysd
-  - No source text for nysd
   - No source URL for nywd
   - No source text for nywd
   - No source URL for vtd
   - No source text for vtd
   - No source URL for ded
-  ... and 153 more warnings
+  - No source text for ded
+  - No source URL for njd
+  - No source text for njd
+  ... and 147 more warnings
 
 ============================================================
