@@ -7,7 +7,7 @@ from datetime import datetime
 from typing import Optional, Tuple, List
 import logging
 
-from ..config import MIN_YEAR, MAX_YEAR, KNOWN_DATES
+from config import MIN_YEAR, MAX_YEAR, KNOWN_DATES
 
 logger = logging.getLogger(__name__)
 

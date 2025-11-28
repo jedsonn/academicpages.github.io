@@ -6,11 +6,11 @@ import logging
 from typing import List, Optional, Dict
 from urllib.parse import urljoin
 
-from .base_scraper import BaseScraper
-from ..models.court_data import CourtData, DateCandidate, SourceType, DatePrecision
-from ..parsers.html_parser import HTMLParser
-from ..parsers.pdf_extractor import PDFExtractor
-from ..parsers.date_extractor import DateExtractor
+from scrapers.base_scraper import BaseScraper
+from models.court_data import CourtData, DateCandidate, SourceType, DatePrecision
+from parsers.html_parser import HTMLParser
+from parsers.pdf_extractor import PDFExtractor
+from parsers.date_extractor import DateExtractor
 
 logger = logging.getLogger(__name__)
 
@@ -217,7 +217,7 @@ class FJCScraper(BaseScraper):
         Returns:
             Court ID if identified, None otherwise
         """
-        from ..config import DISTRICT_COURTS
+        from config import DISTRICT_COURTS
 
         context_lower = context.lower()
 
@@ -308,7 +308,7 @@ class FJCScraper(BaseScraper):
         # or table-like data
 
         data = []
-        from ..config import DISTRICT_COURTS
+        from config import DISTRICT_COURTS
 
         for court_id, info in DISTRICT_COURTS.items():
             court_name = info['name']

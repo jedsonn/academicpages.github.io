@@ -22,6 +22,11 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Optional, Dict
 
+# Add parent directory to path for imports when running directly
+script_dir = Path(__file__).parent
+if str(script_dir) not in sys.path:
+    sys.path.insert(0, str(script_dir))
+
 from tqdm import tqdm
 
 from config import (
@@ -40,6 +45,10 @@ from utils.rate_limiter import RateLimiter
 from utils.user_agent import UserAgentRotator
 from utils.validators import validate_court_data, cross_validate_circuits
 
+# Ensure output directory exists
+output_dir = script_dir / "output"
+output_dir.mkdir(exist_ok=True)
+
 # Set up logging
 logging.basicConfig(
     level=logging.INFO,
@@ -55,14 +64,17 @@ logger = logging.getLogger(__name__)
 class CMECFScraper:
     """Main orchestrator for CM/ECF date scraping."""
 
-    def __init__(self, output_dir: str = "output"):
+    def __init__(self, output_dir: str = None):
         """
         Initialize the scraper.
 
         Args:
-            output_dir: Directory for output files
+            output_dir: Directory for output files (defaults to script_dir/output)
         """
-        self.output_dir = Path(output_dir)
+        if output_dir is None:
+            self.output_dir = script_dir / "output"
+        else:
+            self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True)
 
         # Initialize shared components

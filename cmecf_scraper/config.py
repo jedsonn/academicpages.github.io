@@ -3,13 +3,18 @@ Configuration for CM/ECF scraper.
 Contains all 94 district courts and scraping settings.
 """
 
+import os
+from pathlib import Path
 from typing import Dict, Any
 
+# Get the directory of this config file
+_SCRIPT_DIR = Path(__file__).parent
+
 # Rate limiting configuration
-RATE_LIMIT_DELAY = 2.5  # seconds between requests to same domain
-MAX_RETRIES = 3
-RETRY_BACKOFF = 2  # exponential backoff multiplier
-REQUEST_TIMEOUT = 30  # seconds
+RATE_LIMIT_DELAY = 0.1  # seconds between requests to same domain (fast for blocked networks)
+MAX_RETRIES = 1  # Single try for blocked networks
+RETRY_BACKOFF = 1  # exponential backoff multiplier
+REQUEST_TIMEOUT = 3  # seconds - short timeout for blocked networks
 
 # Wayback Machine settings
 WAYBACK_API_URL = "https://web.archive.org/cdx/search/cdx"
@@ -56,36 +61,36 @@ IMPLEMENTATION_KEYWORDS = [
     "adopted"
 ]
 
-# Pages to check on each court website
+# Pages to check on each court website (reduced list for faster scraping)
 COURT_PAGES_TO_CHECK = [
     "",  # homepage
     "/cmecf",
     "/cm-ecf",
-    "/ecf",
     "/electronic-filing",
-    "/efiling",
-    "/e-filing",
-    "/case-info",
-    "/case-information",
-    "/attorneys",
-    "/attorney-information",
-    "/court-info",
-    "/about-the-court",
-    "/about",
-    "/news",
-    "/announcements",
-    "/general-orders",
-    "/orders/general-orders",
-    "/administrative-orders",
-    "/orders/administrative-orders",
-    "/local-rules",
-    "/standing-orders",
-    "/clerk",
-    "/clerks-office",
-    "/filing",
-    "/filing-procedures",
-    "/history",
-    "/court-history"
+    # "/ecf",
+    # "/efiling",
+    # "/e-filing",
+    # "/case-info",
+    # "/case-information",
+    # "/attorneys",
+    # "/attorney-information",
+    # "/court-info",
+    # "/about-the-court",
+    # "/about",
+    # "/news",
+    # "/announcements",
+    # "/general-orders",
+    # "/orders/general-orders",
+    # "/administrative-orders",
+    # "/orders/administrative-orders",
+    # "/local-rules",
+    # "/standing-orders",
+    # "/clerk",
+    # "/clerks-office",
+    # "/filing",
+    # "/filing-procedures",
+    # "/history",
+    # "/court-history"
 ]
 
 # PDF order patterns to look for
@@ -243,4 +248,4 @@ USER_AGENTS = [
 
 # Logging configuration
 LOG_FORMAT = "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
-LOG_FILE = "output/scraping_log.txt"
+LOG_FILE = str(_SCRIPT_DIR / "output" / "scraping_log.txt")

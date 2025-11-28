@@ -7,8 +7,8 @@ from typing import List, Optional, Tuple
 from dataclasses import dataclass
 import logging
 
-from ..models.court_data import DateCandidate, DatePrecision, SourceType
-from ..config import CMECF_KEYWORDS, IMPLEMENTATION_KEYWORDS, MIN_YEAR, MAX_YEAR
+from models.court_data import DateCandidate, DatePrecision, SourceType
+from config import CMECF_KEYWORDS, IMPLEMENTATION_KEYWORDS, MIN_YEAR, MAX_YEAR
 
 logger = logging.getLogger(__name__)
 

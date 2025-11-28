@@ -18,18 +18,18 @@ class PDFExtractor:
         self._pdfplumber_available = False
         self._pypdf2_available = False
 
-        # Check available libraries
+        # Check available libraries - catch any exception since some libraries may have broken dependencies
         try:
             import pdfplumber
             self._pdfplumber_available = True
-        except ImportError:
-            logger.warning("pdfplumber not available")
+        except Exception as e:
+            logger.warning(f"pdfplumber not available: {e}")
 
         try:
             import PyPDF2
             self._pypdf2_available = True
-        except ImportError:
-            logger.warning("PyPDF2 not available")
+        except Exception as e:
+            logger.warning(f"PyPDF2 not available: {e}")
 
         if not self._pdfplumber_available and not self._pypdf2_available:
             logger.error("No PDF library available! Install pdfplumber or PyPDF2")

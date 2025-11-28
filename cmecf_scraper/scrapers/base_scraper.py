@@ -11,10 +11,10 @@ from urllib.parse import urlparse
 import requests
 from requests.exceptions import RequestException, Timeout, ConnectionError
 
-from ..utils.rate_limiter import RateLimiter
-from ..utils.user_agent import UserAgentRotator
-from ..models.court_data import ScrapingResult, CourtData, DateCandidate
-from ..config import REQUEST_TIMEOUT, MAX_RETRIES, RETRY_BACKOFF
+from utils.rate_limiter import RateLimiter
+from utils.user_agent import UserAgentRotator
+from models.court_data import ScrapingResult, CourtData, DateCandidate
+from config import REQUEST_TIMEOUT, MAX_RETRIES, RETRY_BACKOFF
 
 logger = logging.getLogger(__name__)
 

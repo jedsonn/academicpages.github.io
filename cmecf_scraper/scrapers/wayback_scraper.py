@@ -7,11 +7,11 @@ from typing import List, Optional, Tuple
 from urllib.parse import urljoin, quote
 import json
 
-from .base_scraper import BaseScraper
-from ..models.court_data import CourtData, DateCandidate, SourceType, DatePrecision
-from ..parsers.html_parser import HTMLParser
-from ..parsers.date_extractor import DateExtractor
-from ..config import WAYBACK_API_URL, WAYBACK_SNAPSHOT_URL
+from scrapers.base_scraper import BaseScraper
+from models.court_data import CourtData, DateCandidate, SourceType, DatePrecision
+from parsers.html_parser import HTMLParser
+from parsers.date_extractor import DateExtractor
+from config import WAYBACK_API_URL, WAYBACK_SNAPSHOT_URL
 
 logger = logging.getLogger(__name__)
 

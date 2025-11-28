@@ -6,11 +6,11 @@ import logging
 from typing import List, Optional
 from urllib.parse import urljoin
 
-from .base_scraper import BaseScraper
-from ..models.court_data import CourtData, DateCandidate, SourceType, DatePrecision
-from ..parsers.html_parser import HTMLParser
-from ..parsers.date_extractor import DateExtractor
-from ..config import COURT_PAGES_TO_CHECK
+from scrapers.base_scraper import BaseScraper
+from models.court_data import CourtData, DateCandidate, SourceType, DatePrecision
+from parsers.html_parser import HTMLParser
+from parsers.date_extractor import DateExtractor
+from config import COURT_PAGES_TO_CHECK
 
 logger = logging.getLogger(__name__)
 
