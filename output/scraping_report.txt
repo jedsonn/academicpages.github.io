@@ -1,0 +1,118 @@
+============================================================
+CM/ECF SCRAPING REPORT
+Generated: 2025-11-28 22:41:03
+============================================================
+
+SUMMARY STATISTICS
+----------------------------------------
+Total courts:           94
+Courts with dates:      21 (22.3%)
+High confidence (4-5):  21 (22.3%)
+Exact dates:            9 (9.6%)
+
+BY SOURCE TYPE
+----------------------------------------
+  not_found: 73
+  known_reference: 21
+
+COURTS WITHOUT DATES
+----------------------------------------
+  med: District of Maine
+  nhd: District of New Hampshire
+  prd: District of Puerto Rico
+  rid: District of Rhode Island
+  nywd: Western District of New York
+  vtd: District of Vermont
+  paed: Eastern District of Pennsylvania
+  pamd: Middle District of Pennsylvania
+  pawd: Western District of Pennsylvania
+  vid: District of the Virgin Islands
+  mdd: District of Maryland
+  nced: Eastern District of North Carolina
+  ncmd: Middle District of North Carolina
+  ncwd: Western District of North Carolina
+  scd: District of South Carolina
+  vawd: Western District of Virginia
+  wvnd: Northern District of West Virginia
+  wvsd: Southern District of West Virginia
+  lamd: Middle District of Louisiana
+  lawd: Western District of Louisiana
+  msnd: Northern District of Mississippi
+  mssd: Southern District of Mississippi
+  txed: Eastern District of Texas
+  txnd: Northern District of Texas
+  txsd: Southern District of Texas
+  kyed: Eastern District of Kentucky
+  kywd: Western District of Kentucky
+  miwd: Western District of Michigan
+  ohsd: Southern District of Ohio
+  tned: Eastern District of Tennessee
+  tnmd: Middle District of Tennessee
+  tnwd: Western District of Tennessee
+  ilcd: Central District of Illinois
+  ilnd: Northern District of Illinois
+  ilsd: Southern District of Illinois
+  innd: Northern District of Indiana
+  insd: Southern District of Indiana
+  wied: Eastern District of Wisconsin
+  wiwd: Western District of Wisconsin
+  ared: Eastern District of Arkansas
+  arwd: Western District of Arkansas
+  iasd: Southern District of Iowa
+  iand: Northern District of Iowa
+  mnd: District of Minnesota
+  moed: Eastern District of Missouri
+  ned: District of Nebraska
+  ndd: District of North Dakota
+  akd: District of Alaska
+  azd: District of Arizona
+  cacd: Central District of California
+  caed: Eastern District of California
+  gud: District of Guam
+  hid: District of Hawaii
+  idd: District of Idaho
+  mtd: District of Montana
+  nvd: District of Nevada
+  nmid: District of Northern Mariana Islands
+  waed: Eastern District of Washington
+  wawd: Western District of Washington
+  ksd: District of Kansas
+  nmd: District of New Mexico
+  oked: Eastern District of Oklahoma
+  oknd: Northern District of Oklahoma
+  utd: District of Utah
+  wyd: District of Wyoming
+  almd: Middle District of Alabama
+  alnd: Northern District of Alabama
+  alsd: Southern District of Alabama
+  flmd: Middle District of Florida
+  flnd: Northern District of Florida
+  gamd: Middle District of Georgia
+  gasd: Southern District of Georgia
+  dcd: District of Columbia
+
+VALIDATION WARNINGS
+----------------------------------------
+  - No source URL for med
+  - No source text for med
+  - No source URL for nhd
+  - No source text for nhd
+  - No source URL for prd
+  - No source text for prd
+  - No source URL for rid
+  - No source text for rid
+  - No source URL for nywd
+  - No source text for nywd
+  - No source URL for vtd
+  - No source text for vtd
+  - No source URL for paed
+  - No source text for paed
+  - No source URL for pamd
+  - No source text for pamd
+  - No source URL for pawd
+  - No source text for pawd
+  - No source URL for vid
+  - No source text for vid
+  ... and 130 more warnings
+
+============================================================
