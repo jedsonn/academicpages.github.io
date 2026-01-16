@@ -1,8 +1,9 @@
 # research-radar/sources/nber.py
 """
 NBER Working Papers crawler.
+Uses BeautifulSoup for RSS parsing (no feedparser dependency).
 """
-import feedparser
+from bs4 import BeautifulSoup
 import re
 from datetime import datetime, timedelta
 from typing import List
@@ -25,27 +26,42 @@ class NBERCrawler(BaseCrawler):
         if not date_str:
             return datetime.now()
 
-        try:
-            return datetime.strptime(date_str, "%a, %d %b %Y %H:%M:%S %Z")
-        except ValueError:
-            pass
+        date_str = date_str.strip()
 
-        try:
-            return datetime.strptime(date_str, "%a, %d %b %Y %H:%M:%S %z")
-        except ValueError:
-            pass
+        # Try common RSS date formats
+        formats = [
+            "%a, %d %b %Y %H:%M:%S %Z",
+            "%a, %d %b %Y %H:%M:%S %z",
+            "%Y-%m-%dT%H:%M:%S%z",
+            "%Y-%m-%d",
+        ]
+
+        for fmt in formats:
+            try:
+                return datetime.strptime(date_str, fmt)
+            except ValueError:
+                continue
+
+        # Try to extract just the date part
+        date_match = re.search(r'(\d{1,2}\s+\w+\s+\d{4})', date_str)
+        if date_match:
+            try:
+                return datetime.strptime(date_match.group(1), "%d %b %Y")
+            except ValueError:
+                pass
 
         return datetime.now()
 
-    def _extract_authors(self, entry) -> List[str]:
+    def _extract_authors(self, description: str) -> List[str]:
+        """Extract authors from description text."""
         authors = []
 
-        if hasattr(entry, 'author'):
-            author_str = entry.author
-            authors = [a.strip() for a in re.split(r',\s*(?:and\s+)?', author_str) if a.strip()]
-
-        if not authors and hasattr(entry, 'authors'):
-            authors = [a.get('name', '') for a in entry.authors if a.get('name')]
+        # Look for "by Author1, Author2, and Author3" pattern
+        by_match = re.search(r'by\s+(.+?)(?:\.|$)', description, re.IGNORECASE)
+        if by_match:
+            author_str = by_match.group(1)
+            # Split by comma and "and"
+            authors = [a.strip() for a in re.split(r',\s*(?:and\s+)?|\s+and\s+', author_str) if a.strip()]
 
         return authors
 
@@ -61,38 +77,57 @@ class NBERCrawler(BaseCrawler):
 
         try:
             response = self._safe_request(self.RSS_URL)
-            feed = feedparser.parse(response.content)
+            soup = BeautifulSoup(response.content, 'lxml-xml')
         except Exception as e:
             print(f"[{self.source_id}] Failed to fetch NBER: {e}")
             return []
 
         papers = []
+        items = soup.find_all('item')
 
-        for entry in feed.entries:
-            pub_date = None
-            if hasattr(entry, 'published'):
-                pub_date = self._parse_date(entry.published)
-            elif hasattr(entry, 'updated'):
-                pub_date = self._parse_date(entry.updated)
+        for item in items:
+            # Parse date
+            pub_date_elem = item.find('pubDate')
+            pub_date = self._parse_date(pub_date_elem.text if pub_date_elem else None)
 
             if pub_date and pub_date < since:
                 continue
 
-            paper_id = self._extract_nber_id(entry.link if hasattr(entry, 'link') else entry.id)
+            # Get link
+            link_elem = item.find('link')
+            link = link_elem.text.strip() if link_elem else ""
 
-            title = re.sub(r'\s+', ' ', entry.title).strip() if hasattr(entry, 'title') else "Unknown"
-            abstract = ""
-            if hasattr(entry, 'summary'):
-                abstract = re.sub(r'<[^>]+>', '', entry.summary)
-                abstract = re.sub(r'\s+', ' ', abstract).strip()
+            # Get ID from link
+            paper_id = self._extract_nber_id(link) if link else "unknown"
+
+            # Get title
+            title_elem = item.find('title')
+            title = re.sub(r'\s+', ' ', title_elem.text).strip() if title_elem else "Unknown"
+
+            # Get description (often contains abstract)
+            desc_elem = item.find('description')
+            description = ""
+            if desc_elem:
+                description = re.sub(r'<[^>]+>', '', desc_elem.text)  # Strip HTML
+                description = re.sub(r'\s+', ' ', description).strip()
+
+            # Extract authors from description or creator element
+            authors = []
+            creator_elem = item.find('dc:creator') or item.find('creator')
+            if creator_elem:
+                author_str = creator_elem.text
+                authors = [a.strip() for a in re.split(r',\s*(?:and\s+)?|\s+and\s+', author_str) if a.strip()]
+
+            if not authors and description:
+                authors = self._extract_authors(description)
 
             paper = Paper(
                 external_id=f"nber-{paper_id}",
                 source=self.source_id,
                 title=title,
-                authors=self._extract_authors(entry),
-                abstract=abstract,
-                url=entry.link if hasattr(entry, 'link') else f"https://www.nber.org/papers/w{paper_id}",
+                authors=authors,
+                abstract=description,
+                url=link if link else f"https://www.nber.org/papers/w{paper_id}",
                 published_at=pub_date,
                 metadata={"nber_id": paper_id}
             )
