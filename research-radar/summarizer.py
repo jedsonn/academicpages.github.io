@@ -36,7 +36,7 @@ Abstract: {paper.abstract if paper.abstract else 'Not available'}
 Write in clear academic language. Be concise and specific. No fluff or generic statements."""
 
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-5-mini",
         messages=[{"role": "user", "content": prompt}],
         max_tokens=250,
         temperature=0.3  # Lower temperature for more consistent output

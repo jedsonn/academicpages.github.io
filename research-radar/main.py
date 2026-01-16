@@ -229,7 +229,7 @@ def main():
     print(f"{'='*60}")
 
     if not args.no_summarize:
-        print("\n* Generating summaries with GPT-4o-mini...")
+        print("\n* Generating summaries with GPT-5-mini...")
         try:
             papers = summarize_papers_batch(papers)
         except Exception as e:
