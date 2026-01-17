@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Data files (generated at runtime)
+data/seen_papers.json
+data/papers_history.json
+
+# Generated digests
+digest_*.txt
+digest_*.html
+
+# Environment
+.env
+.venv/
+venv/
